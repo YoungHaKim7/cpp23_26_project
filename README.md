@@ -22,3 +22,9 @@ https://youtu.be/ySsqD2e5uRQ
 ---
 
 Despite the pandemic the C++ committee is continuing to work towards C++23. This survey presentation provides students with a broad overview of the changes and new facilities in the C++23 standard library.
+
+<br>
+
+# Compiler Explorer\_\_web coding
+
+[compiler explorer](https://godbolt.org/)
