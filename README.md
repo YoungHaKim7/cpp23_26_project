@@ -40,3 +40,17 @@ https://github.com/CppCon/CppCon2021
 https://github.com/CppCon/CppCon2020
 
 https://github.com/CppCon
+
+# C++23
+
+https://www.modernescpp.com/index.php/ranges-improvements-with-c-23
+
+https://en.cppreference.com/w/cpp/23
+
+# C++ 23 Forum
+
+https://cplusplus.com/forum/lounge/283965/
+
+# C++ Core Guidelines
+
+https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
