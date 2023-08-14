@@ -10,6 +10,10 @@ g++ -std=c++2b -Wpedantic -Wall -Wextra -Wconversion -O3 -Werror -o main main.cp
 ./main
 ```
 
+# C++23
+
+https://en.m.wikipedia.org/wiki/C%2B%2B23
+
 # C++23 Standard Library Preview - Jeff Garland - CppCon 2021
 
 https://youtu.be/ySsqD2e5uRQ
