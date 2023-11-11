@@ -37,6 +37,8 @@ Despite the pandemic the C++ committee is continuing to work towards C++23. This
 
 # CppCon
 
+https://github.com/CppCon/CppCon2023
+
 https://github.com/CppCon/CppCon2022
 
 https://github.com/CppCon/CppCon2021
