@@ -5,6 +5,8 @@
 
 - [나름 잘 정리된 C++](https://isocpp.org/blog/tag/experimental)
 - [C++26관련 문서](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2024/p2996r5.html)
+- Cpp practices
+  - [Cpp best practices](https://github.com/cpp-best-practices/cppbestpractices)
 
 <hr>
 
