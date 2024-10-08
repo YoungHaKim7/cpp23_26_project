@@ -79,6 +79,7 @@ https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
 
 - Clang implements the following published and upcoming ISO C++ standards:
   - https://clang.llvm.org/cxx_status.html
+    - https://gcc.gnu.org/onlinedocs/gcc/C-Dialect-Options.html
 
 |Language Standard |	Flag |	Available in Clang? |
 |-|-|-|
