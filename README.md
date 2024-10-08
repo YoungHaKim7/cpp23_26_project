@@ -3,6 +3,9 @@
 - [`-std=c++2b`같은거_컴파일옵션 정리 버젼별c++20+23+26 & C/C++ Support in Clang](#cc-support-in-clang)
   - [`-o -Wextra -Wall` 같은거 정리](#gcc--clang)
 
+- [나름 잘 정리된 C++](https://isocpp.org/blog/tag/experimental)
+- [C++26관련 문서](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2024/p2996r5.html)
+
 <hr>
 
 # Code Generation in Rust vs C++26 | Posted Sep 30, 2024  Updated Oct 4, 2024 | By Barry Revzin[|🔝|](#link)
