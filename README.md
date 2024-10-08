@@ -1,3 +1,8 @@
+# Code Generation in Rust vs C++26 | Posted Sep 30, 2024  Updated Oct 4, 2024 | By Barry Revzin
+- https://brevzin.github.io/c++/2024/09/30/annotations/
+
+<hr>
+
 # C++23 tutorial
 
 [C++ Weekly - Ep 323 - C++23's auto{} and auto()](https://www.youtube.com/watch?v=5zVQ50LEnuQ)
