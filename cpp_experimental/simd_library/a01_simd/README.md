@@ -1,0 +1,11 @@
+# Result
+
+```bash
+
+Hello C++
+floatv: NSt12experimental14parallelism_v24simdIfNS0_8simd_abi11_VecBuiltinILi16EEEEE
+doublev: NSt12experimental14parallelism_v24simdIdNS0_8simd_abi6_FixedILi4EEEEE
+intv: NSt12experimental14parallelism_v24simdIiNS0_8simd_abi11_VecBuiltinILi16EEEEE
+
+
+```
