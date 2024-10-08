@@ -1,5 +1,7 @@
 # link
 
+- [gcc 최신 버젼 다운 받기](https://phoenixnap.com/kb/install-gcc-ubuntu)
+
 - [`-std=c++2b`같은거_컴파일옵션 정리 버젼별c++20+23+26 & C/C++ Support in Clang](#cc-support-in-clang)
   - [`-o -Wextra -Wall` 같은거 정리](#gcc--clang)
 
