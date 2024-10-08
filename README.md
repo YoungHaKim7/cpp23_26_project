@@ -1,15 +1,16 @@
 # link
 
-- [컴파일옵션 정리 버젼별c++20+23+26 & C/C++ Support in Clang]()
+- [`-std=c++2b`같은거_컴파일옵션 정리 버젼별c++20+23+26 & C/C++ Support in Clang](#cc-support-in-clang)
+  - [`-o -Wextra -Wall` 같은거 정리](#gcc--clang)
 
 <hr>
 
-# Code Generation in Rust vs C++26 | Posted Sep 30, 2024  Updated Oct 4, 2024 | By Barry Revzin
+# Code Generation in Rust vs C++26 | Posted Sep 30, 2024  Updated Oct 4, 2024 | By Barry Revzin[|🔝|](#link)
 - https://brevzin.github.io/c++/2024/09/30/annotations/
 
 <hr>
 
-# C++23 tutorial
+# C++23 tutorial[|🔝|](#link)
 
 [C++ Weekly - Ep 323 - C++23's auto{} and auto()](https://www.youtube.com/watch?v=5zVQ50LEnuQ)
 
@@ -21,11 +22,11 @@ g++ -std=c++2b -Wpedantic -Wall -Wextra -Wconversion -O3 -Werror -o main main.cp
 ./main
 ```
 
-# C++23
+# C++23[|🔝|](#link)
 
 https://en.m.wikipedia.org/wiki/C%2B%2B23
 
-# C++23 Standard Library Preview - Jeff Garland - CppCon 2021
+# C++23 Standard Library Preview - Jeff Garland - CppCon 2021[|🔝|](#link)
 
 https://youtu.be/ySsqD2e5uRQ
 
@@ -41,12 +42,12 @@ Despite the pandemic the C++ committee is continuing to work towards C++23. This
 
 <br>
 
-# Compiler Explorer\_\_web coding
+# Compiler Explorer\_\_web coding[|🔝|](#link)
 
 [compiler explorer](https://godbolt.org/)
 
 
-# CppCon
+# CppCon[|🔝|](#link)
 
 https://github.com/CppCon/CppCon2023
 
@@ -58,17 +59,17 @@ https://github.com/CppCon/CppCon2020
 
 https://github.com/CppCon
 
-# C++23
+# C++23[|🔝|](#link)
 
 https://www.modernescpp.com/index.php/ranges-improvements-with-c-23
 
 https://en.cppreference.com/w/cpp/23
 
-# C++ 23 Forum
+# C++ 23 Forum[|🔝|](#link)
 
 https://cplusplus.com/forum/lounge/283965/
 
-# C++ Core Guidelines
+# C++ Core Guidelines[|🔝|](#link)
 
 https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
 
@@ -95,7 +96,7 @@ https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
 
 - (CS)컴퓨터 시스템 [ 3판 ] 김형신 저 | 퍼스트북 | 2016년 09월 06일(p35)
 
-# GCC / Clang[[🔝]](#link)
+# GCC / Clang[|🔝|](#link)
 ```-Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic``` 
 - use these and consider the following (see descriptions below)
 
