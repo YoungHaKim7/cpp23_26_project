@@ -80,6 +80,7 @@ https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
 - Clang implements the following published and upcoming ISO C++ standards:
   - https://clang.llvm.org/cxx_status.html
     - https://gcc.gnu.org/onlinedocs/gcc/C-Dialect-Options.html
+      - https://stackoverflow.com/questions/78069644/how-do-i-use-c-26-with-gcc-13-2-0
 
 |Language Standard |	Flag |	Available in Clang? |
 |-|-|-|
