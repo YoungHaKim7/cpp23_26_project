@@ -1,3 +1,8 @@
+# link
+- [C++23: An Overview of Almost All New and Updated Features - Marc Gregoire - CppCon 2023 | CppCon](https://youtu.be/Cttb8vMuq-Y?si=rJqfyv4sog3OHum9)
+
+<hr />
+
 # C++23 Deducing this And Functional Programming | IQ95 The Homo Dawkins
 
 https://youtube.com/playlist?list=PLsIvhalfft1FYthrH9HtlS_v_mpUM5JPL&si=0JbsArZ9WZVP_8AB
