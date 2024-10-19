@@ -1,5 +1,6 @@
 # link
 - [C++23: An Overview of Almost All New and Updated Features - Marc Gregoire - CppCon 2023 | CppCon](https://youtu.be/Cttb8vMuq-Y?si=rJqfyv4sog3OHum9)
+- [Elevating Precision in C++ - A Journey Below the Surface of Floating-Point - Tom Tesch - C++ on Sea  | cpponsea](https://youtu.be/Kftvt_l8wsQ?si=iCRSaADi1KbGm5Iv)
 
 <hr />
 
