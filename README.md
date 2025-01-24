@@ -20,10 +20,18 @@
 
 <hr>
 
+# C++26: The Next C++ Standard | by Rainer Grimm이 사람이 최고[|🔝|](#link)
+- August 19, 2024/0 Comments/in C++26/by Rainer Grimm
+  - https://www.modernescpp.com/index.php/c26-the-next-c-standard/
+
+<hr />
+
 # Code Generation in Rust vs C++26 | Posted Sep 30, 2024  Updated Oct 4, 2024 | By Barry Revzin[|🔝|](#link)
 - https://brevzin.github.io/c++/2024/09/30/annotations/
 
-<hr>
+<hr />
+
+
 
 # C++23 tutorial[|🔝|](#link)
 
