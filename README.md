@@ -19,13 +19,14 @@
   - [Cpp best practices](https://github.com/cpp-best-practices/cppbestpractices)
 
 - C++26이후 최신 뉴스 모음
-  - [GCC 15의 새로운 C++ 기능들 ]()
+  - [(250428)GCC 15의 새로운 C++ 기능들 ](#gcc-15의-새로운-c-기능들-)
 
 <hr>
 
 # C++ 26최신뉴스 모음[|🔝|](#link)
 
 # **[GCC 15의 새로운 C++ 기능들 ](<https://news.hada.io/topic?id=20545&utm_source=discord&utm_medium=bot&utm_campaign=1480>)**[|🔝|](#link)
+- 250428
 - GCC 15는 C++26 기능을 대거 추가했으며, 일부 C++23 기능도 개선했음  
 - 주요 추가 기능은 **Pack Indexing**, **Variadic Friends**, **삭제 이유 명시**, **구조적 바인딩 조건문** 등  
 - 새로운 컴파일러 옵션과 경고들도 도입되어 **개발자 경험**이 향상됨  
