@@ -14,6 +14,7 @@
 
 - C++ 23
   - [New C++ features in GCC 13](https://developers.redhat.com/articles/2023/06/21/new-c-features-gcc-13#)
+  - https://en.cppreference.com/w/c/23.html
 
 - Cpp practices
   - [Cpp best practices](https://github.com/cpp-best-practices/cppbestpractices)
