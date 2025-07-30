@@ -52,6 +52,7 @@
 
 - gcc15최신버젼 설치방법(250731)
   - https://medium.com/@xersendo/moving-to-c-26-how-to-build-and-set-up-gcc-15-1-on-ubuntu-f52cc9173fa0
+  - https://www.reddit.com/r/cpp/comments/1k7lmmn/gcc_15_released/
 
 # 최신 LLVM설치(clang)[|🔝|](#link)
 - https://growingdev.blog/entry/llvm-clang-install
