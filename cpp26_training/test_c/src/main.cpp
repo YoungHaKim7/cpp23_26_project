@@ -1,11 +1,11 @@
-#include <iostream>
 #include <format>
+#include <iostream>
 
 // ===================================================
 // Feature 1: Pack Indexing
 // ===================================================
 
-template<typename... Types>
+template <typename... Types>
 void PrintFirstArg(Types... Args)
 {
     std::cout << std::format("{}\n\n", Args...[0]);
@@ -24,7 +24,9 @@ void TestPackIndexing()
 void TestAttributesForStructuredBindings()
 {
     puts("=== Feature 2: Attributes for Structured Bindings ===");
-    struct StructS1 { int A = 10, B = 20; } S;
+    struct StructS1 {
+        int A = 10, B = 20;
+    } S;
     auto [A [[maybe_unused]], B [[deprecated]]] = S;
     std::cout << std::format("A = {}, B = {}\n\n", A, B);
 }
@@ -33,9 +35,8 @@ void TestAttributesForStructuredBindings()
 // Feature 3: Variadic Friends
 // ===================================================
 
-template<typename... Ts>
-class Passkey
-{
+template <typename... Ts>
+class Passkey {
     friend Ts...;
     Passkey() { }
 };
@@ -43,26 +44,22 @@ class Passkey
 class ClassA;
 class ClassB;
 
-struct Widget
-{
+struct Widget {
     void Secret(Passkey<ClassA, ClassB>) const
     {
         puts("Secret accessed!");
     }
 };
 
-struct ClassA
-{
-    void Access(const Widget& W) const { W.Secret({}); } 
-};
-
-struct ClassB
-{
+struct ClassA {
     void Access(const Widget& W) const { W.Secret({}); }
 };
 
-struct ClassD
-{
+struct ClassB {
+    void Access(const Widget& W) const { W.Secret({}); }
+};
+
+struct ClassD {
     // Compilation error: ClassD is not a friend
     // void Access(Widget& W) { W.Secret({}); }
 };
@@ -102,8 +99,7 @@ void TestConstexprPlacementNew()
 // Feature 5: Structured Binding as Condition
 // ===================================================
 
-struct StructS2
-{
+struct StructS2 {
     int A, B;
     explicit operator bool() const noexcept
     {
@@ -119,9 +115,8 @@ void Use(int A, int B)
 void TestStructuredBindingAsCondition()
 {
     puts("=== Feature 5: Structured Binding as Condition ===");
-    StructS2 S{10, 20};
-    if (auto [A, B] = S)
-    {
+    StructS2 S { 10, 20 };
+    if (auto [A, B] = S) {
         Use(A, B);
     }
     puts("");
