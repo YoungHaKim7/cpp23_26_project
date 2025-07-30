@@ -27,6 +27,7 @@
 <hr>
 
 # C++ 26최신뉴스 모음[|🔝|](#link)
+- [240212)2023년 C++ 에코시스템: C++20의 성장, Clang 기반 도구의 채택 확대, 개발자의 신뢰를 얻고 있는 AI | Jessie Cho | ](https://blog.jetbrains.com/ko/clion/2024/02/the-cpp-ecosystem-in-2023/)
 
 # **[GCC 15의 새로운 C++ 기능들 ](<https://news.hada.io/topic?id=20545&utm_source=discord&utm_medium=bot&utm_campaign=1480>)**[|🔝|](#link)
 - 250428
