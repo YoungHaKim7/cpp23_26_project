@@ -2,6 +2,8 @@
 
 - [gcc 최신 버젼 다운 받기](https://phoenixnap.com/kb/install-gcc-ubuntu)
 
+- [최신 LLVM설치(clang)]()
+
 - [`-std=c++2b`같은거_컴파일옵션 정리 버젼별c++20+23+26 & C/C++ Support in Clang](#cc-support-in-clang)
   - [`-o -Wextra -Wall` 같은거 정리](#gcc--clang)
 
@@ -34,6 +36,14 @@
 - C++ 모듈 지원이 강화되었고, 템플릿 컴파일 속…
 
 <hr />
+
+# 최신 LLVM설치(clang)[|🔝|](#link)
+- https://growingdev.blog/entry/llvm-clang-install
+```
+wget https://apt.llvm.org/llvm.sh
+chmod +x llvm.sh
+sudo ./llvm.sh <version number>
+```
 
 # C++26: The Next C++ Standard | by Rainer Grimm이 사람이 최고[|🔝|](#link)
 - August 19, 2024/0 Comments/in C++26/by Rainer Grimm
