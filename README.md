@@ -44,6 +44,7 @@
 <hr />
 
 # gcc최신정보 및 다운로드 받기[|🔝|](#link)
+- https://github.com/gcc-mirror/gcc
 - https://gcc.gnu.org/
 
 - gcc-15.1.0(Fri Apr 25 10: 36 :04 GMT 2025)
