@@ -38,6 +38,9 @@
 
 <hr />
 
+# gcc최신정보 및 다운로드 받기[|🔝|](#link)
+- https://gcc.gnu.org/
+
 # 최신 LLVM설치(clang)[|🔝|](#link)
 - https://growingdev.blog/entry/llvm-clang-install
 ```
