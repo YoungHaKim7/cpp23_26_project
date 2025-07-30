@@ -45,6 +45,21 @@ chmod +x llvm.sh
 sudo ./llvm.sh <version number>
 ```
 
+- 다른 방법
+  - https://github.com/llvm/llvm-project/issues/57104
+
+```bash
+$ cmake -S llvm -B build -G Ninja \
+	-DLLVM_ENABLE_PROJECTS="clang;clang-tools-extra" \
+ 	-DLLVM_ENABLE_RUNTIMES="compiler-rt;libcxx;libcxxabi" \
+	-DLLVM_USE_LINKER=mold \
+	-DCMAKE_BUILD_TYPE=Release \
+	-DCMAKE_C_COMPILER=clang \
+	-DCMAKE_CXX_COMPILER=clang++
+$ cd build
+$ cmake --build . --target install
+```
+
 # C++26: The Next C++ Standard | by Rainer Grimm이 사람이 최고[|🔝|](#link)
 - August 19, 2024/0 Comments/in C++26/by Rainer Grimm
   - https://www.modernescpp.com/index.php/c26-the-next-c-standard/
