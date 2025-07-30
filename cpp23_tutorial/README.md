@@ -8,6 +8,17 @@
 
 https://youtube.com/playlist?list=PLsIvhalfft1FYthrH9HtlS_v_mpUM5JPL&si=0JbsArZ9WZVP_8AB
 
+# Compile(C++23)
+- https://github.com/llvm/llvm-project/issues/57104
+
+```bash
+$ clang++ -std=c++2b -stdlib=libc++ -nostdinc++ -I /usr/include/c++/20 -I /usr/include/x86_64-unknown-linux-gnu/c++/20 -L /usr/lib -Wl,-rpath,/usr/lib
+ src/main.cpp
+```
+
+<hr />
+
+
 
 # justfile
 
