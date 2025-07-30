@@ -24,6 +24,11 @@
 - C++26이후 최신 뉴스 모음
   - [(250428)GCC 15의 새로운 C++ 기능들 ](#gcc-15의-새로운-c-기능들-)
 
+- C++버젼별 역사 및 정리 잘됨
+  - https://dulidungsil.tistory.com/entry/GCC-%EB%B2%84%EC%A0%84%EA%B3%BC-C-%EB%B2%84%EC%A0%84-%EB%A7%A4%EC%B9%AD
+  - C++ 필수 라이브러리 설명 잘됨.
+    - https://doitnow-man.tistory.com/entry/C-gcc-%EB%B2%84%EC%A0%84%EA%B3%BC-libstdc-%EA%B4%80%EA%B3%84
+
 <hr>
 
 # C++ 26최신뉴스 모음[|🔝|](#link)
