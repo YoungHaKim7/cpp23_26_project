@@ -260,3 +260,11 @@ flag during linking and do at least one of the following:
    - have your system administrator add LIBDIR to `/etc/ld.so.conf'
 
 ```
+
+
+# 해결
+- https://github.com/Quansight/pearu-sandbox/issues/9
+
+```
+export CFLAGS="$CFLAGS -D__GLIBC_USE\(...\)=0"
+```
