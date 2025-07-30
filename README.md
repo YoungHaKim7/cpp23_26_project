@@ -31,6 +31,20 @@
 
 <hr>
 
+# CPLUS_INCLUDE_PATH이걸 해줘야 C++26이 된다.[|🔝|](#link)
+- https://github.com/Quansight/pearu-sandbox/issues/9
+
+```bash
+export CPLUS_INCLUDE_PATH=$PREFIX/$HOST/include/c++/$GCCVERSION:$PREFIX/lib/gcc/$HOST/$GCCVERSION/include
+```
+
+- fishshell
+
+```
+set -x CPLUS_INCLUDE_PATH "$PREFIX/$HOST/include/c++/$GCCVERSION:$PREFIX/lib/gcc/$HOST/$GCCVERSION/include"
+
+```
+
 # C++ 26최신뉴스 모음[|🔝|](#link)
 - [240212)2023년 C++ 에코시스템: C++20의 성장, Clang 기반 도구의 채택 확대, 개발자의 신뢰를 얻고 있는 AI | Jessie Cho | ](https://blog.jetbrains.com/ko/clion/2024/02/the-cpp-ecosystem-in-2023/)
 
