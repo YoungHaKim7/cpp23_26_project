@@ -41,6 +41,9 @@
 # gcc최신정보 및 다운로드 받기[|🔝|](#link)
 - https://gcc.gnu.org/
 
+- gcc-15.1.0(Fri Apr 25 10: 36 :04 GMT 2025)
+  - https://gcc.gnu.org/pipermail/gcc-announce/2025/000185.html
+
 # 최신 LLVM설치(clang)[|🔝|](#link)
 - https://growingdev.blog/entry/llvm-clang-install
 ```
