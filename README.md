@@ -75,6 +75,8 @@ sudo update-alternatives --install /usr/bin/g++ g++ /opt/gcc-15/bin/g++ 100
 - gcc15최신버젼 설치방법(250731)
   - https://medium.com/@xersendo/moving-to-c-26-how-to-build-and-set-up-gcc-15-1-on-ubuntu-f52cc9173fa0
   - https://www.reddit.com/r/cpp/comments/1k7lmmn/gcc_15_released/
+  - apt update로 편하게 설치
+    - https://phoenixnap.com/kb/install-gcc-ubuntu
 
 - gcc14버젼 설치방법
   - https://dev.to/marcosplusplus/how-to-install-gcc-14-and-use-c23-41od
