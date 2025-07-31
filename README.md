@@ -31,7 +31,7 @@
 
 <hr>
 
-# CPLUS_INCLUDE_PATH이걸 해줘야 C++26이 된다.[|🔝|](#link)
+# `CPLUS_INCLUDE_PATH`이걸 해줘야 C++26이 된다.[|🔝|](#link)
 - https://github.com/Quansight/pearu-sandbox/issues/9
 
 ```bash
@@ -45,7 +45,7 @@ set -x CPLUS_INCLUDE_PATH "$PREFIX/$HOST/include/c++/$GCCVERSION:$PREFIX/lib/gcc
 
 ```
 
-# gcc15최산판 다 설치하고 gcc-15 default로 만들기[|🔝|](#link)
+# gcc15최신판 다 설치하고 gcc-15 default로 만들기[|🔝|](#link)
 - https://medium.com/@xersendo/moving-to-c-26-how-to-build-and-set-up-gcc-15-1-on-ubuntu-f52cc9173fa0
 
 ```
