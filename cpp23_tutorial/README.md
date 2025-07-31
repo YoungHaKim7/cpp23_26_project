@@ -25,6 +25,7 @@ $ clang++ -std=c++2b -stdlib=libc++ -nostdinc++ -I /usr/include/c++/20 -I /usr/i
 ```justfile
 # which g++ 
 gpp_which := `which g++`
+clang_which := `which clang++`
 
 # Source and target directories
 src_dir := "./src"
@@ -36,6 +37,7 @@ target := target_dir+"/main"
 
 # Common flags
 ldflags_common := "-std=c++2b -pedantic -pthread -pedantic-errors -lm -Wall -Wextra -ggdb"
+ldflags_common_clang := "-std=c++23 -pedantic -pthread -pedantic-errors -lm -Wall -Wextra -ggdb"
 ldflags_debug := "-c -std=c++2b -pthread -lm -Wall -Wextra -ggdb"
 ldflags_emit_llvm := "-S -emit-llvm"
 ldflags_assembly := "-Wall -save-temps"
@@ -47,7 +49,7 @@ ldflags_fsanitize_valgrind := "-fsanitize=address -g3 -std=c++2b"
 r:
 	rm -rf target
 	mkdir -p target
-	g++ {{ldflags_common}} -o {{target}} {{source}}
+	/opt/gcc-15/bin/g++ {{ldflags_common_clang}} -o {{target}} {{source}}
 	{{target}}
 
 # zig c++ compile
