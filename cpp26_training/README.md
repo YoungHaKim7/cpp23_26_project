@@ -47,6 +47,9 @@ ldflags_fsanitize_address := "-O1 -g -fsanitize=address -fno-omit-frame-pointer 
 ldflags_fsanitize_object := "-g -fsanitize=address"
 ldflags_fsanitize_valgrind := "-fsanitize=address -g3 -std=c++2b"
 
+# fmt
+fmt_flags := ". -regex '.*\\.\\(cpp\\|hpp\\|cc\\|cxx\\|c\\|h\\)' -exec clang-format -style=file -i {} \\;"
+
 # g++ compile
 r:
 	rm -rf target
@@ -66,6 +69,15 @@ b:
 	rm -rf target
 	mkdir -p target
 	g++ {{ldflags_debug}} -o {{target}} {{source}}
+
+# .clang-format init
+cl:
+	rm -rf .clang-format
+	clang-format -style=WebKit -dump-config > .clang-format
+
+# .clang-format fmt
+fmt:
+	find {{fmt_flags}}
 
 # clang++ LLVM emit-file
 ll:
@@ -236,8 +248,6 @@ ldflags_fsanitize_valgrind := "-fsanitize=address -g3 -std=c++2b"
 
 # fmt
 fmt_flags := ". -regex '.*\\.\\(cpp\\|hpp\\|cc\\|cxx\\|c\\|h\\)' -exec clang-format -style=file -i {} \\;"
-
-
 
 # g++ compile
 r:
