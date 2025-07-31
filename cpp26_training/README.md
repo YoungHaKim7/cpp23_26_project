@@ -4,7 +4,7 @@
 
 - justfile 세팅
   - [justfile(c++26) linuxOS용](#justfilec26-linuxos용)
-  - [ macOS(justfile최종g++-15)]()
+  - [macOS(c++26)(justfile최종g++-15)](#macosjustfile최종g-15)
 
 <hr />
 
