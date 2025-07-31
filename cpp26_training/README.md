@@ -1,4 +1,14 @@
+# link
+
 - https://godbolt.org/
+
+<hr />
+
+# What's new in C++26
+
+- What's new in C++26 (part 1) (mariusbancila.ro)
+  - https://news.ycombinator.com/item?id=41471488
+
 
 <hr />
 
