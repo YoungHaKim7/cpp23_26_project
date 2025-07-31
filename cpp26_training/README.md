@@ -1,3 +1,7 @@
+- https://godbolt.org/
+
+<hr />
+
 # C++26 Preview - Jeffrey Garland - C++Now 2024 | CppNow
 - https://youtu.be/CwYILWyTRMQ?si=nfH8khxEPr47Daw1
 
