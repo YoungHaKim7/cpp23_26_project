@@ -45,6 +45,14 @@ set -x CPLUS_INCLUDE_PATH "$PREFIX/$HOST/include/c++/$GCCVERSION:$PREFIX/lib/gcc
 
 ```
 
+# gcc15최산판 다 설치하고 gcc-15 default로 만들기[|🔝|](#link)
+- https://medium.com/@xersendo/moving-to-c-26-how-to-build-and-set-up-gcc-15-1-on-ubuntu-f52cc9173fa0
+
+```
+sudo update-alternatives --install /usr/bin/gcc gcc /opt/gcc-15/bin/gcc 100
+sudo update-alternatives --install /usr/bin/g++ g++ /opt/gcc-15/bin/g++ 100
+```
+
 # C++ 26최신뉴스 모음[|🔝|](#link)
 - [240212)2023년 C++ 에코시스템: C++20의 성장, Clang 기반 도구의 채택 확대, 개발자의 신뢰를 얻고 있는 AI | Jessie Cho | ](https://blog.jetbrains.com/ko/clion/2024/02/the-cpp-ecosystem-in-2023/)
 
