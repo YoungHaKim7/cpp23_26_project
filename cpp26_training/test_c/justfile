@@ -24,7 +24,7 @@ ldflags_fsanitize_valgrind := "-fsanitize=address -g3 -std=c++2b"
 r:
 	rm -rf target
 	mkdir -p target
-	g++ {{ldflags_common_clang}} -o {{target}} {{source}}
+	/opt/gcc-15/bin/g++ {{ldflags_common}} -o {{target}} {{source}}
 	{{target}}
 
 # zig c++ compile
