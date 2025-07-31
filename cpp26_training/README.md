@@ -2,9 +2,13 @@
 
 - https://godbolt.org/
 
+- justfile 세팅
+  - [justfile(c++26) linuxOS용](#justfilec26-linuxos용)
+  - [ macOS(justfile최종g++-15)]()
+
 <hr />
 
-# What's new in C++26
+# What's new in C++26[|🔝|](#link)
 
 - What's new in C++26 (part 1) (mariusbancila.ro)
   - https://news.ycombinator.com/item?id=41471488
@@ -12,16 +16,16 @@
 
 <hr />
 
-# C++26 Preview - Jeffrey Garland - C++Now 2024 | CppNow
+# C++26 Preview - Jeffrey Garland - C++Now 2024 | CppNow[|🔝|](#link)
 - https://youtu.be/CwYILWyTRMQ?si=nfH8khxEPr47Daw1
 
 <hr>
 
-# Code Generation in Rust vs C++26 | Posted Sep 30, 2024  Updated Oct 4, 2024 | By Barry Revzin
+# Code Generation in Rust vs C++26 | Posted Sep 30, 2024  Updated Oct 4, 2024 | By Barry Revzin[|🔝|](#link)
 - https://brevzin.github.io/c++/2024/09/30/annotations/
 
 
-# justfile(c++26) linuxOS용
+# justfile(c++26) linuxOS용[|🔝|](#link)
 
 ```justfile
 # which g++ 
@@ -216,12 +220,11 @@ vscode:
 	echo '    ],' >> .vscode/tasks.json
 	echo '    "version": "2.0.0"' >> .vscode/tasks.json
 	echo '}' >> .vscode/tasks.json
-
 ```
 
 <hr />
 
-# macOS(justfile최종)
+# macOS(justfile최종g++-15)[|🔝|](#link)
 
 ```justfile
 # which g++ 
@@ -248,8 +251,6 @@ ldflags_fsanitize_valgrind := "-fsanitize=address -g3 -std=c++2b"
 
 # Format C/C++ files using clang-format (macOS compatible)
 fmt_flags := ". \\( -name '*.cpp' -o -name '*.hpp' -o -name '*.cc' -o -name '*.cxx' -o -name '*.c' -o -name '*.h' \\) -exec clang-format -style=file -i {} \\;"
-
-
 
 # g++ compile
 r:
