@@ -1,6 +1,6 @@
 # which g++ 
-gpp_which := `which g++`
-clang_which := `which clang++`
+gpp_which := " /opt/gcc-15/bin/g++"
+clang_which := "/usr/bin/clang++-20"
 
 # Source and target directories
 src_dir := "./src"
