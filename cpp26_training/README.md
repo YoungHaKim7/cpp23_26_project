@@ -28,9 +28,16 @@
 
 # justfile which backtick error일때[|🔝|](#link)
 
+- linuxOS
 ```justfile
 # which g++ 
 gpp_which := " /opt/gcc-15/bin/g++"
+clang_which := "/usr/bin/clang++-20"
+```
+
+- macOS
+```justfile
+gpp_which := /opt/homebrew/Cellar/gcc/15.1.0/bin/g++-15
 clang_which := "/usr/bin/clang++-20"
 ```
 
