@@ -38,7 +38,7 @@ clang_which := "/usr/bin/clang++-20"
 - macOS
 ```justfile
 gpp_which := /opt/homebrew/Cellar/gcc/15.1.0/bin/g++-15
-clang_which := " /opt/homebrew/opt/llvm/bin/clang++"
+clang_which := "/opt/homebrew/opt/llvm/bin/clang++"
 ```
 
 
@@ -443,8 +443,8 @@ vscode:
 
 ```justfile
 # which g++ 
-gpp_which := `which g++`
-clang_which := `which clang++`
+gpp_which := "/opt/homebrew/Cellar/gcc/15.1.0/bin/g++-15"
+clang_which := "/opt/homebrew/opt/llvm/bin/clang++"
 
 # Source and target directories
 src_dir := "./src"
@@ -471,7 +471,7 @@ fmt_flags := ". \\( -name '*.cpp' -o -name '*.hpp' -o -name '*.cc' -o -name '*.c
 r:
 	rm -rf target
 	mkdir -p target
-	/opt/homebrew/Cellar/gcc/15.1.0/bin/g++-15 {{ldflags_common}} -o {{target}} {{source}}
+	{{gpp_which}} {{ldflags_common}} -o {{target}} {{source}}
 	{{target}}
 
 # zig c++ compile

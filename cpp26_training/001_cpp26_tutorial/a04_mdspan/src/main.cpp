@@ -1,6 +1,6 @@
 // https://en.cppreference.com/w/cpp/container/mdspan.html
 #include <cstddef>
-#include <mdspan>
+#include <submdspan>
 #include <print>
 #include <vector>
 
@@ -9,9 +9,9 @@ int main()
     std::vector v { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 };
 
     // View data as contiguous memory representing 2 rows of 6 ints each
-    auto ms2 = std::mdspan(v.data(), 2, 6);
+    auto ms2 = std::submdspan(v.data(), 2, 6);
     // View the same data as a 3D array 2 x 3 x 2
-    auto ms3 = std::mdspan(v.data(), 2, 3, 2);
+    auto ms3 = std::submdspan(v.data(), 2, 3, 2);
 
     // Write data using 2D view
     for (std::size_t i = 0; i != ms2.extent(0); i++)
