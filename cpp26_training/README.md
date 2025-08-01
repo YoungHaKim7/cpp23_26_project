@@ -25,6 +25,16 @@
 - https://brevzin.github.io/c++/2024/09/30/annotations/
 
 
+# justfile which backtick error일때[|🔝|](#link)
+
+```justfile
+# which g++ 
+gpp_which := " /opt/gcc-15/bin/g++"
+clang_which := "/usr/bin/clang++-20"
+
+```
+
+
 # justfile(c++26) linuxOS용[|🔝|](#link)
 
 ```justfile
