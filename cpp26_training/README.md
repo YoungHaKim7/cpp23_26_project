@@ -485,7 +485,7 @@ zr:
 b:
 	rm -rf target
 	mkdir -p target
-	g++ {{ldflags_debug}} -o {{target}} {{source}}
+	{{gpp_which}} {{ldflags_debug}} -o {{target}} {{source}}
 
 # .clang-format init
 cl:
@@ -501,7 +501,7 @@ ll:
 	rm -rf target
 	mkdir -p target
 	cp -rf {{src_dir}}/main.cpp ./
-	clang++ {{ldflags_emit_llvm}} main.cpp
+	{{clang_which}} {{ldflags_emit_llvm}} main.cpp
 	mv *.ll {{target_dir}}
 	clang++ {{ldflags_common}} -o {{target}} {{source}}
 	mv *.cpp {{target_dir}}
@@ -511,7 +511,7 @@ ll:
 as:
 	rm -rf target
 	mkdir -p target
-	g++ {{ldflags_assembly}} -o {{target}} {{source}}
+	{{gpp_which}} {{ldflags_assembly}} -o {{target}} {{source}}
 	mv *.ii {{target_dir}}
 	mv *.o {{target_dir}}
 	mv *.s {{target_dir}}
@@ -521,22 +521,22 @@ as:
 fsan:
 	rm -rf target
 	mkdir -p target
-	clang++ {{ldflags_fsanitize_address}} {{source}} -o {{target}}
-	clang++ {{ldflags_fsanitize_object}} {{target}}
+	{{clang_which}} {{ldflags_fsanitize_address}} {{source}} -o {{target}}
+	{{clang_which}} {{ldflags_fsanitize_object}} {{target}}
 	mv *.out {{target_dir}}
 
 # leak memory check(valgrind)
 mem:
 	rm -rf target
 	mkdir -p target
-	g++ {{ldflags_fsanitize_valgrind}} {{source}} -o {{target}}
+	{{gpp_which}} {{ldflags_fsanitize_valgrind}} {{source}} -o {{target}}
 	valgrind --leak-check=full {{target}}
 
 # object file emit-file
 obj:
 	rm -rf target
 	mkdir -p target
-	g++ {{ldflags_assembly}} -o {{target}} {{source}}
+	{{gpp_which}} {{ldflags_assembly}} -o {{target}} {{source}}
 	mv *.ii {{target_dir}}
 	mv *.o {{target_dir}}
 	mv *.s {{target_dir}}
@@ -547,7 +547,7 @@ obj:
 xx:
 	rm -rf target
 	mkdir -p target
-	g++ {{ldflags_fsanitize_valgrind}} {{source}} -o {{target}}
+	{{gpp_which}} {{ldflags_fsanitize_valgrind}} {{source}} -o {{target}}
 	xxd -c 16 {{target}}
 
 # clean files
