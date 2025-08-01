@@ -3,7 +3,8 @@
 #include <functional>
 #include <print>
 
-int main() {
+int main()
+{
     std::move_only_function<void()> f = [] { std::println("Moved!"); };
     f();
 }
