@@ -38,7 +38,7 @@ clang_which := "/usr/bin/clang++-20"
 - macOS
 ```justfile
 gpp_which := /opt/homebrew/Cellar/gcc/15.1.0/bin/g++-15
-clang_which := "/usr/bin/clang++-20"
+clang_which := " /opt/homebrew/opt/llvm/bin/clang++"
 ```
 
 
