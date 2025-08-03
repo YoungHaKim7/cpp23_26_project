@@ -1,3 +1,7 @@
+# gcc 15(C++26 잘 정리됨)
+- https://developers.redhat.com/articles/2025/04/24/new-c-features-gcc-15
+  - 한글 https://news.hada.io/topic?id=20545
+
 # mdspan
 - https://en.cppreference.com/w/cpp/container/mdspan.html
 
