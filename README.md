@@ -4,8 +4,7 @@
   - [(외부링크) gcc 최신 버젼 다운 받기_잘 설명됨](https://phoenixnap.com/kb/install-gcc-ubuntu)
 
 - [최신 LLVM설치(clang)](#최신-llvm설치clang)
-
-- [`clang-format-20`설치방법](#clang-format-20설치방법)
+  - [`clang-format-20`설치방법](#clang-format-20설치방법)
 
 - [`-std=c++2b`같은거_컴파일옵션 정리 버젼별c++20+23+26 & C/C++ Support in Clang](#cc-support-in-clang)
   - [`-o -Wextra -Wall` 같은거 정리](#gcc--clang)
