@@ -7,6 +7,9 @@
     - [justfile(c++26) linuxOS용02](#justfilec26-linuxos용02)
   - [macOS(c++26)(justfile최종g++-15)](#macosjustfile최종g-15)
 
+- 다른 외국인 c23&26예시 많다.
+  - https://github.com/scivision/Cpp23-examples
+
 <hr />
 
 # What's new in C++26[|🔝|](#link)
