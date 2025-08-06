@@ -5,6 +5,8 @@
 
 - [최신 LLVM설치(clang)](#최신-llvm설치clang)
 
+- [`clang-format-20`설치방법]()
+
 - [`-std=c++2b`같은거_컴파일옵션 정리 버젼별c++20+23+26 & C/C++ Support in Clang](#cc-support-in-clang)
   - [`-o -Wextra -Wall` 같은거 정리](#gcc--clang)
 
@@ -31,6 +33,16 @@
     - https://doitnow-man.tistory.com/entry/C-gcc-%EB%B2%84%EC%A0%84%EA%B3%BC-libstdc-%EA%B4%80%EA%B3%84
 
 <hr>
+
+# `clang-format-20`설치방법[|🔝|](#link)
+- https://askubuntu.com/questions/1409031/how-to-use-a-more-recent-clang-format-or-clang-tidy-version-on-ubuntu-18-04
+
+```bash
+wget https://apt.llvm.org/llvm.sh
+chmod +x llvm.sh
+sudo ./llvm.sh 20
+sudo apt install clang-format-20
+```
 
 # `CPLUS_INCLUDE_PATH`이걸 해줘야 C++26이 된다.[|🔝|](#link)
 - https://github.com/Quansight/pearu-sandbox/issues/9
