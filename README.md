@@ -16,6 +16,9 @@
     - [p2300등 여러가 지 문서 다 모아놓았음c++](https://github.com/cplusplus/sender-receiver) 
     - [p2300r10](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2024/p2300r10.html)
 
+- 외국사람이 잘 정리함(C11부터 C26까지 예시 잘 정리됨)
+  - https://github.com/scivision/Cpp23-examples
+
 - C++ 23
   - [New C++ features in GCC 13](https://developers.redhat.com/articles/2023/06/21/new-c-features-gcc-13#)
   - https://en.cppreference.com/w/c/23.html
