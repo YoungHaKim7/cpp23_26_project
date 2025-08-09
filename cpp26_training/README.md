@@ -34,7 +34,7 @@
 - linuxOS
 ```justfile
 # which g++ 
-gpp_which := " /opt/gcc-15/bin/g++"
+gpp_which := "/opt/gcc-15/bin/g++"
 clang_which := "/usr/bin/clang++-20"
 ```
 
