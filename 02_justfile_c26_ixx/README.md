@@ -1,3 +1,17 @@
+# CmakeSample
+https://github.com/ComicSansMS/CMake_Modules
+
+```
+mkdir build
+
+cd build
+
+cmake -G Ninja ..
+
+# execute file
+ninja
+```
+
 # Result
 - `just br`
 
