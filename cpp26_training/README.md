@@ -17,6 +17,9 @@
 - What's new in C++26 (part 1) (mariusbancila.ro)
   - https://news.ycombinator.com/item?id=41471488
 
+# Three Cool Things in C++26: Safety, Reflection & std::execution - Herb Sutter - C++ on Sea 2025
+cpponsea
+- https://youtu.be/kKbT0Vg3ISw?si=zRh7QoWAokdgQWI2
 
 <hr />
 
