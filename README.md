@@ -2,6 +2,8 @@
 
 - [gcc 최신 버젼 다운 받기_& gcc 최신 정보](#gcc최신정보-및-다운로드-받기)
   - [(외부링크) gcc 최신 버젼 다운 받기_잘 설명됨](https://phoenixnap.com/kb/install-gcc-ubuntu)
+    - 최신판 수동 설치
+      - [cmake최신판](#cmake-최신판-설치)
 
 - [최신 LLVM설치(clang)](#최신-llvm설치clang)
   - [`clang-format-20`설치방법](#clang-format-20설치방법)
@@ -57,6 +59,27 @@ set -x CPLUS_INCLUDE_PATH "$PREFIX/$HOST/include/c++/$GCCVERSION:$PREFIX/lib/gcc
 sudo update-alternatives --install /usr/bin/gcc gcc /opt/gcc-15/bin/gcc 100
 sudo update-alternatives --install /usr/bin/g++ g++ /opt/gcc-15/bin/g++ 100
 ```
+
+
+# cmake 최신판 설치[|🔝|](#link)
+
+- https://cmake.org/download/
+- 압축 풀고 cmake폴더 들어가서
+
+```bash
+./bootstrap && make && sudo make install
+```
+
+- https://tttsss77.tistory.com/77
+
+
+# Cmake업데이트 하기[[🔝]](#link)
+- https://somjang.tistory.com/entry/Ubuntu-CMake-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95
+
+- https://askubuntu.com/questions/829310/how-to-upgrade-cmake-in-ubuntu
+
+# Cmake option옵션 설정[[🔝]](#link)
+- https://tttsss77.tistory.com/193?category=827570
 
 # C++ 26최신뉴스 모음[|🔝|](#link)
 - [240212)2023년 C++ 에코시스템: C++20의 성장, Clang 기반 도구의 채택 확대, 개발자의 신뢰를 얻고 있는 AI | Jessie Cho | ](https://blog.jetbrains.com/ko/clion/2024/02/the-cpp-ecosystem-in-2023/)
