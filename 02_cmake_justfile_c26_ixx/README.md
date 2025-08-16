@@ -9,6 +9,9 @@
 
 ```bash
 ./bootstrap && make && sudo make install
+
+# 병렬 실행
+make -j `nproc`
 ```
 
 - https://tttsss77.tistory.com/77
