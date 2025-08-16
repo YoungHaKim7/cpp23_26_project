@@ -1,3 +1,5 @@
+project_name := `basename "$(pwd)"`
+
 # which g++ (c23 + 26)
 gpp_which := "/opt/gcc-15/bin/g++"
 clang_which := "/usr/bin/clang++-20"
@@ -9,8 +11,8 @@ target_dir := "target"
 # Files
 source := src_dir+"/main.cpp"
 target := "./"+target_dir+"/main"
-module_source := src_dir+"/ixx_module/add_module.ixx"
-module_target := target_dir+"/add_module.o"
+module_source := src_dir+"/modules/*.ixx"
+module_target := target_dir+"/*.o"
 main_target := target_dir+"/main.o"
 
 
@@ -27,23 +29,26 @@ ldflags_fsanitize_valgrind := "-fsanitize=address -g3 -std=c++2b"
 # fmt
 fmt_flags := ". -regex '.*\\.\\(cpp\\|hpp\\|cc\\|cxx\\|c\\|h\\)' -exec clang-format -style=file -i {} \\;"
 
-# g++ compile
-r:
-	rm -rf target
-	mkdir -p target
-	{{gpp_which}} {{ldflags_common}} -o {{target}} {{source}}
-	{{target}}
-
 # g++ compile with modules
-br:
+r:
     rm -rf target gcm.cache
     mkdir -p target
-    {{gpp_which}} {{ldflags_common}} -fmodules-ts -c {{module_source}} -o {{module_target}}
-    {{gpp_which}} {{ldflags_common}} -fmodules-ts -c {{source}} -o {{main_target}}
-    {{gpp_which}} {{ldflags_common}} -fmodules-ts {{main_target}} {{module_target}} -o {{target}}
-    mv gcm.cache {{target_dir}}/
-    {{target}}
+    {{gpp_which}} {{ldflags_common}} -fmodules-ts -c {{module_source}} 
+    {{gpp_which}} {{ldflags_common}} -fmodules-ts -c {{source}} 
+    {{gpp_which}} {{ldflags_common}} -fmodules-ts *.o
+    mv gcm.cache *.o a.out {{target_dir}}/
+    {{target_dir}}/a.out
 
+# cmake (build)
+cr:
+	rm -rf build
+	mkdir -p build
+	cd build
+	cmake -G Ninja .
+	ninja
+	mv build.ninja CMakeCache.txt CMakeFiles cmake_install.cmake target .ninja_deps .ninja_log build
+	./build/target/{{project_name}}
+    
 # zig c++ compile
 zr:
 	rm -rf target
@@ -121,8 +126,9 @@ xx:
 	xxd -c 16 {{target}}
 
 # clean files
-clean:
+rm:
 	rm -rf {{target_dir}} *.out {{src_dir}}/*.out *.bc {{src_dir}}/target/ *.dSYM {{src_dir}}/*.dSYM *.i *.o *.s
+	rm -rf CMakeCache.txt CMakeFiles build target
 
 # C++ init
 init:
@@ -145,7 +151,7 @@ init2:
 	echo '}' >> src/main.cpp
 
 	
- Debugging(VSCode)
+# Debugging(VSCode)
 vscode:
 	rm -rf .vscode
 	mkdir -p .vscode
@@ -204,4 +210,3 @@ vscode:
 	echo '        }' >> .vscode/tasks.json
 	echo '    ],' >> .vscode/tasks.json
 	echo '    "version": "2.0.0"' >> .vscode/tasks.json
-	
