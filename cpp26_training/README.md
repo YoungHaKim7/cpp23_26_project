@@ -54,17 +54,25 @@ clang_which := "/opt/homebrew/opt/llvm/bin/clang++"
 # justfile(c++26) linuxOS용[|🔝|](#link)
 
 ```justfile
-# which g++ 
+project_name := `basename "$(pwd)"`
+
+# which g++ (c23 + 26)
 gpp_which := "/opt/gcc-15/bin/g++"
 clang_which := "/usr/bin/clang++-20"
 
+# clang-format-20
+clang_format := "clang-format-20"
+
 # Source and target directories
 src_dir := "./src"
-target_dir := "./target"
+target_dir := "target"
 
 # Files
 source := src_dir+"/main.cpp"
-target := target_dir+"/main"
+target := "./"+target_dir+"/main"
+module_source := src_dir+"/modules/*.ixx"
+module_target := target_dir+"/*.o"
+main_target := target_dir+"/main.o"
 
 # Common flags
 ldflags_common := "-std=c++26 -pedantic -pthread -pedantic-errors -lm -Wall -Wextra -ggdb"
@@ -77,15 +85,35 @@ ldflags_fsanitize_object := "-g -fsanitize=address"
 ldflags_fsanitize_valgrind := "-fsanitize=address -g3 -std=c++2b"
 
 # fmt
-fmt_flags := ". -regex '.*\\.\\(cpp\\|hpp\\|cc\\|cxx\\|c\\|h\\)' -exec clang-format -style=file -i {} \\;"
+fmt_flags := ". -regex '.*\\.\\(cpp\\|hpp\\|cc\\|cxx\\|c\\|h\\)' -exec "+clang_format+" -style=file -i {} \\;"
 
-# g++ compile
 r:
-	rm -rf target
-	mkdir -p target
-	{{gpp_which}} {{ldflags_common}} -o {{target}} {{source}}
-	{{target}}
+    rm -rf target 
+    mkdir -p target
+    {{gpp_which}} {{ldflags_common}} {{source}} 
+    mv a.out {{target_dir}}
+    {{target_dir}}/./a.out
 
+# g++ compile with modules
+br:
+    rm -rf target gcm.cache
+    mkdir -p target
+    {{gpp_which}} {{ldflags_common}} -fmodules-ts -c {{module_source}} 
+    {{gpp_which}} {{ldflags_common}} -fmodules-ts -c {{source}} 
+    {{gpp_which}} {{ldflags_common}} -fmodules-ts *.o
+    mv gcm.cache *.o a.out {{target_dir}}/
+    {{target_dir}}/a.out
+
+# cmake (build)
+cr:
+	rm -rf build
+	mkdir -p build
+	cd build
+	cmake -G Ninja .
+	ninja
+	mv build.ninja CMakeCache.txt CMakeFiles cmake_install.cmake target .ninja_deps .ninja_log build
+	./build/target/{{project_name}}
+    
 # zig c++ compile
 zr:
 	rm -rf target
@@ -102,7 +130,7 @@ b:
 # .clang-format init
 cl:
 	rm -rf .clang-format
-	clang-format -style=WebKit -dump-config > .clang-format
+	{{clang_format}} -style=WebKit -dump-config > .clang-format
 
 # .clang-format fmt
 fmt:
@@ -165,6 +193,7 @@ xx:
 # clean files
 clean:
 	rm -rf {{target_dir}} *.out {{src_dir}}/*.out *.bc {{src_dir}}/target/ *.dSYM {{src_dir}}/*.dSYM *.i *.o *.s
+	rm -rf build CMakeCache.txt CMakeFiles
 
 # C++ init
 init:
@@ -186,6 +215,7 @@ init2:
 	echo '    return 0;' >> src/main.cpp
 	echo '}' >> src/main.cpp
 
+	
 # Debugging(VSCode)
 vscode:
 	rm -rf .vscode
@@ -245,7 +275,6 @@ vscode:
 	echo '        }' >> .vscode/tasks.json
 	echo '    ],' >> .vscode/tasks.json
 	echo '    "version": "2.0.0"' >> .vscode/tasks.json
-	echo '}' >> .vscode/tasks.json
 ```
 
 # justfile(c++26) linuxOS용02[|🔝|](#link)
