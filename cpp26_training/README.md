@@ -17,6 +17,9 @@
 - What's new in C++26 (part 1) (mariusbancila.ro)
   - https://news.ycombinator.com/item?id=41471488
 
+- [(외부링크_250701유튜브)C++ 26이 완성되었습니다! | Gamefromscratch](https://youtu.be/TOKP7k66VBw?si=H6FYLENpyQ9_aqRS)
+
+
 # Three Cool Things in C++26: Safety, Reflection & std::execution - Herb Sutter - C++ on Sea 2025
 cpponsea
 - https://youtu.be/kKbT0Vg3ISw?si=zRh7QoWAokdgQWI2
