@@ -30,6 +30,7 @@
 
 - C++26이후 최신 뉴스 모음
   - [(250428)GCC 15의 새로운 C++ 기능들 ](#gcc-15의-새로운-c-기능들-)
+  - [(241109외부링크) c26, c29 청사진 및 앞으로 나아갈 방향 (Peering Forward - C++’s Next Decade - Herb Sutter - CppCon 2024 | CppCon](https://youtu.be/FNi1-x4pojs?si=WBzxKhIuwCIAv1X8)
 
 - C++버젼별 역사 및 정리 잘됨
   - https://dulidungsil.tistory.com/entry/GCC-%EB%B2%84%EC%A0%84%EA%B3%BC-C-%EB%B2%84%EC%A0%84-%EB%A7%A4%EC%B9%AD
