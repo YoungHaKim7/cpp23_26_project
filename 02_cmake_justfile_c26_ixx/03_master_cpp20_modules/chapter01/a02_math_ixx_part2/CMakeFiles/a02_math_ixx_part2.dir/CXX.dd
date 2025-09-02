@@ -1,0 +1,3 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/a02_math_ixx_part2.dir/src/main.cpp.o: dyndep
+

@@ -1,0 +1,9 @@
+# ninja log v5
+0	34	1756833294258664859	CMakeFiles/a02_math_ixx_part2.dir/src/main.cpp.o.ddi	4ea1060b79185e47
+0	37	1756833294262216747	CMakeFiles/project_modules.dir/src/modules/math_stuff.ixx.o.ddi	965ad1eeb8de7f8a
+37	41	1756833294266457594	CMakeFiles/project_modules.dir/CXX.dd	45bac8b853c8e1a3
+37	41	1756833294266457594	CMakeFiles/project_modules.dir/CXXModules.json	45bac8b853c8e1a3
+37	41	1756833294266457594	CMakeFiles/project_modules.dir/src/modules/math_stuff.ixx.o.modmap	45bac8b853c8e1a3
+42	45	1756833294269779968	CMakeFiles/a02_math_ixx_part2.dir/CXX.dd	5cb252ea6c5dea41
+42	45	1756833294269779968	CMakeFiles/a02_math_ixx_part2.dir/CXXModules.json	5cb252ea6c5dea41
+42	45	1756833294269779968	CMakeFiles/a02_math_ixx_part2.dir/src/main.cpp.o.modmap	5cb252ea6c5dea41

@@ -1,0 +1,17 @@
+{
+"rules": [
+{
+"primary-output": "CMakeFiles/project_modules.dir/src/modules/math_stuff.ixx.o",
+"provides": [
+{
+"logical-name": "math_stuff",
+"is-interface": true
+}
+],
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}

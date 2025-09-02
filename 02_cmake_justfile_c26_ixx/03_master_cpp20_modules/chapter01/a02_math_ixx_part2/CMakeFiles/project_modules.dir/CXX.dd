@@ -1,0 +1,4 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/project_modules.dir/src/modules/math_stuff.ixx.o | CMakeFiles/project_modules.dir/math_stuff.gcm: dyndep
+  restat = 1
+

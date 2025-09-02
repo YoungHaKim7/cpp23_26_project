@@ -1,0 +1,12 @@
+{
+	"modules" : {},
+	"references" : 
+	{
+		"math_stuff" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "CMakeFiles/project_modules.dir/math_stuff.gcm"
+		}
+	},
+	"usages" : {}
+}
