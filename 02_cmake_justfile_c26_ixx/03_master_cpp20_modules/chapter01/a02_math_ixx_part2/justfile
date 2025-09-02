@@ -2,7 +2,7 @@ project_name := `basename "$(pwd)"`
 
 # which g++ (c23 + 26 / LinuxOS)
 clang_which := "/usr/bin/clang++-20"
-gpp_which := `which g++`
+gpp_which := "/opt/gcc-15/bin/g++"
 
 # which g++(macOS)
 macos_clang_which := "/opt/homebrew/opt/llvm/bin/clang"

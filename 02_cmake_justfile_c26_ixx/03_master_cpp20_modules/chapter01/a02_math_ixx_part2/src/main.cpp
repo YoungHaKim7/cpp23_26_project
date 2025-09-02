@@ -1,9 +1,6 @@
-import math;
-
-#include <iostream>
+import math_stuff;
 
 int main() {
-    std::cout << "ixx" << std::endl;
     greet("World");
-    print_name_length("OpenAI");
+    print_name_length("OpenAI test");
 }
