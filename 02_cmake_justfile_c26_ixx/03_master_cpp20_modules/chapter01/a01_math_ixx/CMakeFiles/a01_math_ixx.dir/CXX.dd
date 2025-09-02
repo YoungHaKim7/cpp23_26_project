@@ -1,5 +1,0 @@
-ninja_dyndep_version = 1.0
-build CMakeFiles/a01_math_ixx.dir/src/main.cpp.o: dyndep | CMakeFiles/project_modules.dir/math.gcm
-
-build CMakeFiles/a01_math_ixx.dir/src/modules/math.cpp.o: dyndep | CMakeFiles/project_modules.dir/math.gcm
-
