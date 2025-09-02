@@ -1,7 +1,6 @@
 import math;
 
 #include <print>
-#include "modules/math.cpp"
 
 int main() {
     std::println("c26 style ");

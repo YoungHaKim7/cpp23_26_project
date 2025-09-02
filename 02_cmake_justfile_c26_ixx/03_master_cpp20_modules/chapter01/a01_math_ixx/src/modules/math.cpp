@@ -10,6 +10,6 @@ void greet(const char* name) {
     std::println("{}", dest);
 }
 
-int name_length(const char* c_str_name) {
+int print_name_length(const char* c_str_name) {
     return std::strlen(c_str_name);
 }

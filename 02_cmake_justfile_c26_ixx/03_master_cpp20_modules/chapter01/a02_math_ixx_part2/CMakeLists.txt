@@ -1,10 +1,9 @@
 cmake_minimum_required(VERSION 4.0)
-
 get_filename_component(ProjectId ${CMAKE_CURRENT_SOURCE_DIR} NAME)
 string(REPLACE " " "_" ProjectId ${ProjectId})
 project(${ProjectId} LANGUAGES CXX)
 
-set(CMAKE_CXX_STANDARD 26)
+set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
@@ -14,9 +13,9 @@ add_library(project_modules OBJECT)
 target_sources(project_modules
     PUBLIC
         FILE_SET cxx_modules TYPE CXX_MODULES FILES
-            src/modules/math.ixx
-    PRIVATE
-        src/modules/math.cpp
+            src/modules/math_stuff.ixx
+    # PRIVATE
+        # src/modules/math.cpp
 )
 
 target_compile_options(project_modules PRIVATE
