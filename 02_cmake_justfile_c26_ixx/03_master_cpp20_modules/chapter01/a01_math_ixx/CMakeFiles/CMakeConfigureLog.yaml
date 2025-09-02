@@ -1,0 +1,1731 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/"
+      - "/home/g/.sdkman/candidates/java/current/bin/"
+      - "/usr/include/gtkmm-4.0/"
+      - "/home/g/.dotnet/tools/"
+      - "/home/g/.dotnet/"
+      - "/home/g/utilities/zls/zig-out/bin/"
+      - "/home/g/utilities/zig-x86_64-linux/"
+      - "/home/g/.emacs.d/bin/"
+      - "/home/g/.config/emacs/bin/"
+      - "/home/g/.local/bin/"
+      - "/home/g/utilities/nvim-linux64/bin/"
+      - "/home/g/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/uname"
+      - "/home/g/.sdkman/candidates/java/current/bin/uname"
+      - "/usr/include/gtkmm-4.0/uname"
+      - "/home/g/.dotnet/tools/uname"
+      - "/home/g/.dotnet/uname"
+      - "/home/g/utilities/zls/zig-out/bin/uname"
+      - "/home/g/utilities/zig-x86_64-linux/uname"
+      - "/home/g/.emacs.d/bin/uname"
+      - "/home/g/.config/emacs/bin/uname"
+      - "/home/g/.local/bin/uname"
+      - "/home/g/utilities/nvim-linux64/bin/uname"
+      - "/home/g/.cargo/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/sbin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/g/.sdkman/candidates/kotlin/current/bin"
+        - "/home/g/.sdkman/candidates/java/current/bin"
+        - "/usr/include/gtkmm-4.0"
+        - "/home/g/.dotnet/tools"
+        - "/home/g/.dotnet"
+        - "/home/g/utilities/zls/zig-out/bin"
+        - "/home/g/utilities/zig-x86_64-linux"
+        - "/home/g/.emacs.d/bin"
+        - "/home/g/.config/emacs/bin"
+        - "/home/g/.local/bin"
+        - "/home/g/utilities/nvim-linux64/bin"
+        - "/home/g/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Linux - 6.14.0-29-generic - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.1/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Program used to build from build.ninja files."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ninja-build"
+      - "ninja"
+      - "samu"
+    candidate_directories:
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/"
+      - "/home/g/.sdkman/candidates/java/current/bin/"
+      - "/usr/include/gtkmm-4.0/"
+      - "/home/g/.dotnet/tools/"
+      - "/home/g/.dotnet/"
+      - "/home/g/utilities/zls/zig-out/bin/"
+      - "/home/g/utilities/zig-x86_64-linux/"
+      - "/home/g/.emacs.d/bin/"
+      - "/home/g/.config/emacs/bin/"
+      - "/home/g/.local/bin/"
+      - "/home/g/utilities/nvim-linux64/bin/"
+      - "/home/g/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/ninja-build"
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/ninja"
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/samu"
+      - "/home/g/.sdkman/candidates/java/current/bin/ninja-build"
+      - "/home/g/.sdkman/candidates/java/current/bin/ninja"
+      - "/home/g/.sdkman/candidates/java/current/bin/samu"
+      - "/usr/include/gtkmm-4.0/ninja-build"
+      - "/usr/include/gtkmm-4.0/ninja"
+      - "/usr/include/gtkmm-4.0/samu"
+      - "/home/g/.dotnet/tools/ninja-build"
+      - "/home/g/.dotnet/tools/ninja"
+      - "/home/g/.dotnet/tools/samu"
+      - "/home/g/.dotnet/ninja-build"
+      - "/home/g/.dotnet/ninja"
+      - "/home/g/.dotnet/samu"
+      - "/home/g/utilities/zls/zig-out/bin/ninja-build"
+      - "/home/g/utilities/zls/zig-out/bin/ninja"
+      - "/home/g/utilities/zls/zig-out/bin/samu"
+      - "/home/g/utilities/zig-x86_64-linux/ninja-build"
+      - "/home/g/utilities/zig-x86_64-linux/ninja"
+      - "/home/g/utilities/zig-x86_64-linux/samu"
+      - "/home/g/.emacs.d/bin/ninja-build"
+      - "/home/g/.emacs.d/bin/ninja"
+      - "/home/g/.emacs.d/bin/samu"
+      - "/home/g/.config/emacs/bin/ninja-build"
+      - "/home/g/.config/emacs/bin/ninja"
+      - "/home/g/.config/emacs/bin/samu"
+      - "/home/g/.local/bin/ninja-build"
+      - "/home/g/.local/bin/ninja"
+      - "/home/g/.local/bin/samu"
+      - "/home/g/utilities/nvim-linux64/bin/ninja-build"
+      - "/home/g/utilities/nvim-linux64/bin/ninja"
+      - "/home/g/utilities/nvim-linux64/bin/samu"
+      - "/home/g/.cargo/bin/ninja-build"
+      - "/home/g/.cargo/bin/ninja"
+      - "/home/g/.cargo/bin/samu"
+      - "/usr/local/sbin/ninja-build"
+      - "/usr/local/sbin/ninja"
+      - "/usr/local/sbin/samu"
+      - "/usr/local/bin/ninja-build"
+      - "/usr/local/bin/ninja"
+      - "/usr/local/bin/samu"
+      - "/usr/sbin/ninja-build"
+      - "/usr/sbin/ninja"
+      - "/usr/sbin/samu"
+      - "/usr/bin/ninja-build"
+    found: "/usr/bin/ninja"
+    search_context:
+      ENV{PATH}:
+        - "/home/g/.sdkman/candidates/kotlin/current/bin"
+        - "/home/g/.sdkman/candidates/java/current/bin"
+        - "/usr/include/gtkmm-4.0"
+        - "/home/g/.dotnet/tools"
+        - "/home/g/.dotnet"
+        - "/home/g/utilities/zls/zig-out/bin"
+        - "/home/g/utilities/zig-x86_64-linux"
+        - "/home/g/.emacs.d/bin"
+        - "/home/g/.config/emacs/bin"
+        - "/home/g/.local/bin"
+        - "/home/g/utilities/nvim-linux64/bin"
+        - "/home/g/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/local/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/local/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/local/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/local/share/cmake-4.1/Modules/"
+    found: "/usr/local/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/g/.sdkman/candidates/kotlin/current/bin"
+        - "/home/g/.sdkman/candidates/java/current/bin"
+        - "/usr/include/gtkmm-4.0"
+        - "/home/g/.dotnet/tools"
+        - "/home/g/.dotnet"
+        - "/home/g/utilities/zls/zig-out/bin"
+        - "/home/g/utilities/zig-x86_64-linux"
+        - "/home/g/.emacs.d/bin"
+        - "/home/g/.config/emacs/bin"
+        - "/home/g/.local/bin"
+        - "/home/g/utilities/nvim-linux64/bin"
+        - "/home/g/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /opt/gcc-15/bin/g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/g/my_project/Rust_Lang/9999/2222/cpp23_26_project/02_cmake_justfile_c26_ixx/03_master_cpp20_modules/chapter01/a01_math_ixx/CMakeFiles/4.1.0/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/local/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/opt/gcc-15/bin/"
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/"
+      - "/home/g/.sdkman/candidates/java/current/bin/"
+      - "/usr/include/gtkmm-4.0/"
+      - "/home/g/.dotnet/tools/"
+      - "/home/g/.dotnet/"
+      - "/home/g/utilities/zls/zig-out/bin/"
+      - "/home/g/utilities/zig-x86_64-linux/"
+      - "/home/g/.emacs.d/bin/"
+      - "/home/g/.config/emacs/bin/"
+      - "/home/g/.local/bin/"
+      - "/home/g/utilities/nvim-linux64/bin/"
+      - "/home/g/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/opt/gcc-15/bin/ar"
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/ar"
+      - "/home/g/.sdkman/candidates/java/current/bin/ar"
+      - "/usr/include/gtkmm-4.0/ar"
+      - "/home/g/.dotnet/tools/ar"
+      - "/home/g/.dotnet/ar"
+      - "/home/g/utilities/zls/zig-out/bin/ar"
+      - "/home/g/utilities/zig-x86_64-linux/ar"
+      - "/home/g/.emacs.d/bin/ar"
+      - "/home/g/.config/emacs/bin/ar"
+      - "/home/g/.local/bin/ar"
+      - "/home/g/utilities/nvim-linux64/bin/ar"
+      - "/home/g/.cargo/bin/ar"
+      - "/usr/local/sbin/ar"
+      - "/usr/local/bin/ar"
+      - "/usr/sbin/ar"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/g/.sdkman/candidates/kotlin/current/bin"
+        - "/home/g/.sdkman/candidates/java/current/bin"
+        - "/usr/include/gtkmm-4.0"
+        - "/home/g/.dotnet/tools"
+        - "/home/g/.dotnet"
+        - "/home/g/utilities/zls/zig-out/bin"
+        - "/home/g/utilities/zig-x86_64-linux"
+        - "/home/g/.emacs.d/bin"
+        - "/home/g/.config/emacs/bin"
+        - "/home/g/.local/bin"
+        - "/home/g/utilities/nvim-linux64/bin"
+        - "/home/g/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/local/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/opt/gcc-15/bin/"
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/"
+      - "/home/g/.sdkman/candidates/java/current/bin/"
+      - "/usr/include/gtkmm-4.0/"
+      - "/home/g/.dotnet/tools/"
+      - "/home/g/.dotnet/"
+      - "/home/g/utilities/zls/zig-out/bin/"
+      - "/home/g/utilities/zig-x86_64-linux/"
+      - "/home/g/.emacs.d/bin/"
+      - "/home/g/.config/emacs/bin/"
+      - "/home/g/.local/bin/"
+      - "/home/g/utilities/nvim-linux64/bin/"
+      - "/home/g/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/opt/gcc-15/bin/ranlib"
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/ranlib"
+      - "/home/g/.sdkman/candidates/java/current/bin/ranlib"
+      - "/usr/include/gtkmm-4.0/ranlib"
+      - "/home/g/.dotnet/tools/ranlib"
+      - "/home/g/.dotnet/ranlib"
+      - "/home/g/utilities/zls/zig-out/bin/ranlib"
+      - "/home/g/utilities/zig-x86_64-linux/ranlib"
+      - "/home/g/.emacs.d/bin/ranlib"
+      - "/home/g/.config/emacs/bin/ranlib"
+      - "/home/g/.local/bin/ranlib"
+      - "/home/g/utilities/nvim-linux64/bin/ranlib"
+      - "/home/g/.cargo/bin/ranlib"
+      - "/usr/local/sbin/ranlib"
+      - "/usr/local/bin/ranlib"
+      - "/usr/sbin/ranlib"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/g/.sdkman/candidates/kotlin/current/bin"
+        - "/home/g/.sdkman/candidates/java/current/bin"
+        - "/usr/include/gtkmm-4.0"
+        - "/home/g/.dotnet/tools"
+        - "/home/g/.dotnet"
+        - "/home/g/utilities/zls/zig-out/bin"
+        - "/home/g/utilities/zig-x86_64-linux"
+        - "/home/g/.emacs.d/bin"
+        - "/home/g/.config/emacs/bin"
+        - "/home/g/.local/bin"
+        - "/home/g/utilities/nvim-linux64/bin"
+        - "/home/g/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/local/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/opt/gcc-15/bin/"
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/"
+      - "/home/g/.sdkman/candidates/java/current/bin/"
+      - "/usr/include/gtkmm-4.0/"
+      - "/home/g/.dotnet/tools/"
+      - "/home/g/.dotnet/"
+      - "/home/g/utilities/zls/zig-out/bin/"
+      - "/home/g/utilities/zig-x86_64-linux/"
+      - "/home/g/.emacs.d/bin/"
+      - "/home/g/.config/emacs/bin/"
+      - "/home/g/.local/bin/"
+      - "/home/g/utilities/nvim-linux64/bin/"
+      - "/home/g/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/opt/gcc-15/bin/strip"
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/strip"
+      - "/home/g/.sdkman/candidates/java/current/bin/strip"
+      - "/usr/include/gtkmm-4.0/strip"
+      - "/home/g/.dotnet/tools/strip"
+      - "/home/g/.dotnet/strip"
+      - "/home/g/utilities/zls/zig-out/bin/strip"
+      - "/home/g/utilities/zig-x86_64-linux/strip"
+      - "/home/g/.emacs.d/bin/strip"
+      - "/home/g/.config/emacs/bin/strip"
+      - "/home/g/.local/bin/strip"
+      - "/home/g/utilities/nvim-linux64/bin/strip"
+      - "/home/g/.cargo/bin/strip"
+      - "/usr/local/sbin/strip"
+      - "/usr/local/bin/strip"
+      - "/usr/sbin/strip"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/g/.sdkman/candidates/kotlin/current/bin"
+        - "/home/g/.sdkman/candidates/java/current/bin"
+        - "/usr/include/gtkmm-4.0"
+        - "/home/g/.dotnet/tools"
+        - "/home/g/.dotnet"
+        - "/home/g/utilities/zls/zig-out/bin"
+        - "/home/g/utilities/zig-x86_64-linux"
+        - "/home/g/.emacs.d/bin"
+        - "/home/g/.config/emacs/bin"
+        - "/home/g/.local/bin"
+        - "/home/g/utilities/nvim-linux64/bin"
+        - "/home/g/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/local/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/opt/gcc-15/bin/"
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/"
+      - "/home/g/.sdkman/candidates/java/current/bin/"
+      - "/usr/include/gtkmm-4.0/"
+      - "/home/g/.dotnet/tools/"
+      - "/home/g/.dotnet/"
+      - "/home/g/utilities/zls/zig-out/bin/"
+      - "/home/g/utilities/zig-x86_64-linux/"
+      - "/home/g/.emacs.d/bin/"
+      - "/home/g/.config/emacs/bin/"
+      - "/home/g/.local/bin/"
+      - "/home/g/utilities/nvim-linux64/bin/"
+      - "/home/g/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/opt/gcc-15/bin/ld"
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/ld"
+      - "/home/g/.sdkman/candidates/java/current/bin/ld"
+      - "/usr/include/gtkmm-4.0/ld"
+      - "/home/g/.dotnet/tools/ld"
+      - "/home/g/.dotnet/ld"
+      - "/home/g/utilities/zls/zig-out/bin/ld"
+      - "/home/g/utilities/zig-x86_64-linux/ld"
+      - "/home/g/.emacs.d/bin/ld"
+      - "/home/g/.config/emacs/bin/ld"
+      - "/home/g/.local/bin/ld"
+      - "/home/g/utilities/nvim-linux64/bin/ld"
+      - "/home/g/.cargo/bin/ld"
+      - "/usr/local/sbin/ld"
+      - "/usr/local/bin/ld"
+      - "/usr/sbin/ld"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/home/g/.sdkman/candidates/kotlin/current/bin"
+        - "/home/g/.sdkman/candidates/java/current/bin"
+        - "/usr/include/gtkmm-4.0"
+        - "/home/g/.dotnet/tools"
+        - "/home/g/.dotnet"
+        - "/home/g/utilities/zls/zig-out/bin"
+        - "/home/g/utilities/zig-x86_64-linux"
+        - "/home/g/.emacs.d/bin"
+        - "/home/g/.config/emacs/bin"
+        - "/home/g/.local/bin"
+        - "/home/g/utilities/nvim-linux64/bin"
+        - "/home/g/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/local/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/opt/gcc-15/bin/"
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/"
+      - "/home/g/.sdkman/candidates/java/current/bin/"
+      - "/usr/include/gtkmm-4.0/"
+      - "/home/g/.dotnet/tools/"
+      - "/home/g/.dotnet/"
+      - "/home/g/utilities/zls/zig-out/bin/"
+      - "/home/g/utilities/zig-x86_64-linux/"
+      - "/home/g/.emacs.d/bin/"
+      - "/home/g/.config/emacs/bin/"
+      - "/home/g/.local/bin/"
+      - "/home/g/utilities/nvim-linux64/bin/"
+      - "/home/g/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/opt/gcc-15/bin/nm"
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/nm"
+      - "/home/g/.sdkman/candidates/java/current/bin/nm"
+      - "/usr/include/gtkmm-4.0/nm"
+      - "/home/g/.dotnet/tools/nm"
+      - "/home/g/.dotnet/nm"
+      - "/home/g/utilities/zls/zig-out/bin/nm"
+      - "/home/g/utilities/zig-x86_64-linux/nm"
+      - "/home/g/.emacs.d/bin/nm"
+      - "/home/g/.config/emacs/bin/nm"
+      - "/home/g/.local/bin/nm"
+      - "/home/g/utilities/nvim-linux64/bin/nm"
+      - "/home/g/.cargo/bin/nm"
+      - "/usr/local/sbin/nm"
+      - "/usr/local/bin/nm"
+      - "/usr/sbin/nm"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/home/g/.sdkman/candidates/kotlin/current/bin"
+        - "/home/g/.sdkman/candidates/java/current/bin"
+        - "/usr/include/gtkmm-4.0"
+        - "/home/g/.dotnet/tools"
+        - "/home/g/.dotnet"
+        - "/home/g/utilities/zls/zig-out/bin"
+        - "/home/g/utilities/zig-x86_64-linux"
+        - "/home/g/.emacs.d/bin"
+        - "/home/g/.config/emacs/bin"
+        - "/home/g/.local/bin"
+        - "/home/g/utilities/nvim-linux64/bin"
+        - "/home/g/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/local/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/opt/gcc-15/bin/"
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/"
+      - "/home/g/.sdkman/candidates/java/current/bin/"
+      - "/usr/include/gtkmm-4.0/"
+      - "/home/g/.dotnet/tools/"
+      - "/home/g/.dotnet/"
+      - "/home/g/utilities/zls/zig-out/bin/"
+      - "/home/g/utilities/zig-x86_64-linux/"
+      - "/home/g/.emacs.d/bin/"
+      - "/home/g/.config/emacs/bin/"
+      - "/home/g/.local/bin/"
+      - "/home/g/utilities/nvim-linux64/bin/"
+      - "/home/g/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/opt/gcc-15/bin/objdump"
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/objdump"
+      - "/home/g/.sdkman/candidates/java/current/bin/objdump"
+      - "/usr/include/gtkmm-4.0/objdump"
+      - "/home/g/.dotnet/tools/objdump"
+      - "/home/g/.dotnet/objdump"
+      - "/home/g/utilities/zls/zig-out/bin/objdump"
+      - "/home/g/utilities/zig-x86_64-linux/objdump"
+      - "/home/g/.emacs.d/bin/objdump"
+      - "/home/g/.config/emacs/bin/objdump"
+      - "/home/g/.local/bin/objdump"
+      - "/home/g/utilities/nvim-linux64/bin/objdump"
+      - "/home/g/.cargo/bin/objdump"
+      - "/usr/local/sbin/objdump"
+      - "/usr/local/bin/objdump"
+      - "/usr/sbin/objdump"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/home/g/.sdkman/candidates/kotlin/current/bin"
+        - "/home/g/.sdkman/candidates/java/current/bin"
+        - "/usr/include/gtkmm-4.0"
+        - "/home/g/.dotnet/tools"
+        - "/home/g/.dotnet"
+        - "/home/g/utilities/zls/zig-out/bin"
+        - "/home/g/utilities/zig-x86_64-linux"
+        - "/home/g/.emacs.d/bin"
+        - "/home/g/.config/emacs/bin"
+        - "/home/g/.local/bin"
+        - "/home/g/utilities/nvim-linux64/bin"
+        - "/home/g/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/local/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/opt/gcc-15/bin/"
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/"
+      - "/home/g/.sdkman/candidates/java/current/bin/"
+      - "/usr/include/gtkmm-4.0/"
+      - "/home/g/.dotnet/tools/"
+      - "/home/g/.dotnet/"
+      - "/home/g/utilities/zls/zig-out/bin/"
+      - "/home/g/utilities/zig-x86_64-linux/"
+      - "/home/g/.emacs.d/bin/"
+      - "/home/g/.config/emacs/bin/"
+      - "/home/g/.local/bin/"
+      - "/home/g/utilities/nvim-linux64/bin/"
+      - "/home/g/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/opt/gcc-15/bin/objcopy"
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/objcopy"
+      - "/home/g/.sdkman/candidates/java/current/bin/objcopy"
+      - "/usr/include/gtkmm-4.0/objcopy"
+      - "/home/g/.dotnet/tools/objcopy"
+      - "/home/g/.dotnet/objcopy"
+      - "/home/g/utilities/zls/zig-out/bin/objcopy"
+      - "/home/g/utilities/zig-x86_64-linux/objcopy"
+      - "/home/g/.emacs.d/bin/objcopy"
+      - "/home/g/.config/emacs/bin/objcopy"
+      - "/home/g/.local/bin/objcopy"
+      - "/home/g/utilities/nvim-linux64/bin/objcopy"
+      - "/home/g/.cargo/bin/objcopy"
+      - "/usr/local/sbin/objcopy"
+      - "/usr/local/bin/objcopy"
+      - "/usr/sbin/objcopy"
+    found: "/usr/bin/objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/home/g/.sdkman/candidates/kotlin/current/bin"
+        - "/home/g/.sdkman/candidates/java/current/bin"
+        - "/usr/include/gtkmm-4.0"
+        - "/home/g/.dotnet/tools"
+        - "/home/g/.dotnet"
+        - "/home/g/utilities/zls/zig-out/bin"
+        - "/home/g/utilities/zig-x86_64-linux"
+        - "/home/g/.emacs.d/bin"
+        - "/home/g/.config/emacs/bin"
+        - "/home/g/.local/bin"
+        - "/home/g/utilities/nvim-linux64/bin"
+        - "/home/g/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/local/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/opt/gcc-15/bin/"
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/"
+      - "/home/g/.sdkman/candidates/java/current/bin/"
+      - "/usr/include/gtkmm-4.0/"
+      - "/home/g/.dotnet/tools/"
+      - "/home/g/.dotnet/"
+      - "/home/g/utilities/zls/zig-out/bin/"
+      - "/home/g/utilities/zig-x86_64-linux/"
+      - "/home/g/.emacs.d/bin/"
+      - "/home/g/.config/emacs/bin/"
+      - "/home/g/.local/bin/"
+      - "/home/g/utilities/nvim-linux64/bin/"
+      - "/home/g/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/opt/gcc-15/bin/readelf"
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/readelf"
+      - "/home/g/.sdkman/candidates/java/current/bin/readelf"
+      - "/usr/include/gtkmm-4.0/readelf"
+      - "/home/g/.dotnet/tools/readelf"
+      - "/home/g/.dotnet/readelf"
+      - "/home/g/utilities/zls/zig-out/bin/readelf"
+      - "/home/g/utilities/zig-x86_64-linux/readelf"
+      - "/home/g/.emacs.d/bin/readelf"
+      - "/home/g/.config/emacs/bin/readelf"
+      - "/home/g/.local/bin/readelf"
+      - "/home/g/utilities/nvim-linux64/bin/readelf"
+      - "/home/g/.cargo/bin/readelf"
+      - "/usr/local/sbin/readelf"
+      - "/usr/local/bin/readelf"
+      - "/usr/sbin/readelf"
+    found: "/usr/bin/readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/g/.sdkman/candidates/kotlin/current/bin"
+        - "/home/g/.sdkman/candidates/java/current/bin"
+        - "/usr/include/gtkmm-4.0"
+        - "/home/g/.dotnet/tools"
+        - "/home/g/.dotnet"
+        - "/home/g/utilities/zls/zig-out/bin"
+        - "/home/g/utilities/zig-x86_64-linux"
+        - "/home/g/.emacs.d/bin"
+        - "/home/g/.config/emacs/bin"
+        - "/home/g/.local/bin"
+        - "/home/g/utilities/nvim-linux64/bin"
+        - "/home/g/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/local/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/opt/gcc-15/bin/"
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/"
+      - "/home/g/.sdkman/candidates/java/current/bin/"
+      - "/usr/include/gtkmm-4.0/"
+      - "/home/g/.dotnet/tools/"
+      - "/home/g/.dotnet/"
+      - "/home/g/utilities/zls/zig-out/bin/"
+      - "/home/g/utilities/zig-x86_64-linux/"
+      - "/home/g/.emacs.d/bin/"
+      - "/home/g/.config/emacs/bin/"
+      - "/home/g/.local/bin/"
+      - "/home/g/utilities/nvim-linux64/bin/"
+      - "/home/g/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/opt/gcc-15/bin/dlltool"
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/dlltool"
+      - "/home/g/.sdkman/candidates/java/current/bin/dlltool"
+      - "/usr/include/gtkmm-4.0/dlltool"
+      - "/home/g/.dotnet/tools/dlltool"
+      - "/home/g/.dotnet/dlltool"
+      - "/home/g/utilities/zls/zig-out/bin/dlltool"
+      - "/home/g/utilities/zig-x86_64-linux/dlltool"
+      - "/home/g/.emacs.d/bin/dlltool"
+      - "/home/g/.config/emacs/bin/dlltool"
+      - "/home/g/.local/bin/dlltool"
+      - "/home/g/utilities/nvim-linux64/bin/dlltool"
+      - "/home/g/.cargo/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/sbin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/games/dlltool"
+      - "/usr/local/games/dlltool"
+      - "/snap/bin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/g/.sdkman/candidates/kotlin/current/bin"
+        - "/home/g/.sdkman/candidates/java/current/bin"
+        - "/usr/include/gtkmm-4.0"
+        - "/home/g/.dotnet/tools"
+        - "/home/g/.dotnet"
+        - "/home/g/utilities/zls/zig-out/bin"
+        - "/home/g/utilities/zig-x86_64-linux"
+        - "/home/g/.emacs.d/bin"
+        - "/home/g/.config/emacs/bin"
+        - "/home/g/.local/bin"
+        - "/home/g/utilities/nvim-linux64/bin"
+        - "/home/g/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/local/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/opt/gcc-15/bin/"
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/"
+      - "/home/g/.sdkman/candidates/java/current/bin/"
+      - "/usr/include/gtkmm-4.0/"
+      - "/home/g/.dotnet/tools/"
+      - "/home/g/.dotnet/"
+      - "/home/g/utilities/zls/zig-out/bin/"
+      - "/home/g/utilities/zig-x86_64-linux/"
+      - "/home/g/.emacs.d/bin/"
+      - "/home/g/.config/emacs/bin/"
+      - "/home/g/.local/bin/"
+      - "/home/g/utilities/nvim-linux64/bin/"
+      - "/home/g/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/opt/gcc-15/bin/addr2line"
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/addr2line"
+      - "/home/g/.sdkman/candidates/java/current/bin/addr2line"
+      - "/usr/include/gtkmm-4.0/addr2line"
+      - "/home/g/.dotnet/tools/addr2line"
+      - "/home/g/.dotnet/addr2line"
+      - "/home/g/utilities/zls/zig-out/bin/addr2line"
+      - "/home/g/utilities/zig-x86_64-linux/addr2line"
+      - "/home/g/.emacs.d/bin/addr2line"
+      - "/home/g/.config/emacs/bin/addr2line"
+      - "/home/g/.local/bin/addr2line"
+      - "/home/g/utilities/nvim-linux64/bin/addr2line"
+      - "/home/g/.cargo/bin/addr2line"
+      - "/usr/local/sbin/addr2line"
+      - "/usr/local/bin/addr2line"
+      - "/usr/sbin/addr2line"
+    found: "/usr/bin/addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/g/.sdkman/candidates/kotlin/current/bin"
+        - "/home/g/.sdkman/candidates/java/current/bin"
+        - "/usr/include/gtkmm-4.0"
+        - "/home/g/.dotnet/tools"
+        - "/home/g/.dotnet"
+        - "/home/g/utilities/zls/zig-out/bin"
+        - "/home/g/utilities/zig-x86_64-linux"
+        - "/home/g/.emacs.d/bin"
+        - "/home/g/.config/emacs/bin"
+        - "/home/g/.local/bin"
+        - "/home/g/utilities/nvim-linux64/bin"
+        - "/home/g/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/local/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/opt/gcc-15/bin/"
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/"
+      - "/home/g/.sdkman/candidates/java/current/bin/"
+      - "/usr/include/gtkmm-4.0/"
+      - "/home/g/.dotnet/tools/"
+      - "/home/g/.dotnet/"
+      - "/home/g/utilities/zls/zig-out/bin/"
+      - "/home/g/utilities/zig-x86_64-linux/"
+      - "/home/g/.emacs.d/bin/"
+      - "/home/g/.config/emacs/bin/"
+      - "/home/g/.local/bin/"
+      - "/home/g/utilities/nvim-linux64/bin/"
+      - "/home/g/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/opt/gcc-15/bin/tapi"
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/tapi"
+      - "/home/g/.sdkman/candidates/java/current/bin/tapi"
+      - "/usr/include/gtkmm-4.0/tapi"
+      - "/home/g/.dotnet/tools/tapi"
+      - "/home/g/.dotnet/tapi"
+      - "/home/g/utilities/zls/zig-out/bin/tapi"
+      - "/home/g/utilities/zig-x86_64-linux/tapi"
+      - "/home/g/.emacs.d/bin/tapi"
+      - "/home/g/.config/emacs/bin/tapi"
+      - "/home/g/.local/bin/tapi"
+      - "/home/g/utilities/nvim-linux64/bin/tapi"
+      - "/home/g/.cargo/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/usr/bin/tapi"
+      - "/sbin/tapi"
+      - "/bin/tapi"
+      - "/usr/games/tapi"
+      - "/usr/local/games/tapi"
+      - "/snap/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/g/.sdkman/candidates/kotlin/current/bin"
+        - "/home/g/.sdkman/candidates/java/current/bin"
+        - "/usr/include/gtkmm-4.0"
+        - "/home/g/.dotnet/tools"
+        - "/home/g/.dotnet"
+        - "/home/g/utilities/zls/zig-out/bin"
+        - "/home/g/utilities/zig-x86_64-linux"
+        - "/home/g/.emacs.d/bin"
+        - "/home/g/.config/emacs/bin"
+        - "/home/g/.local/bin"
+        - "/home/g/utilities/nvim-linux64/bin"
+        - "/home/g/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/local/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-15.2"
+      - "gcc-ar-15"
+      - "gcc-ar15"
+      - "gcc-ar"
+    candidate_directories:
+      - "/opt/gcc-15/bin/"
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/"
+      - "/home/g/.sdkman/candidates/java/current/bin/"
+      - "/usr/include/gtkmm-4.0/"
+      - "/home/g/.dotnet/tools/"
+      - "/home/g/.dotnet/"
+      - "/home/g/utilities/zls/zig-out/bin/"
+      - "/home/g/utilities/zig-x86_64-linux/"
+      - "/home/g/.emacs.d/bin/"
+      - "/home/g/.config/emacs/bin/"
+      - "/home/g/.local/bin/"
+      - "/home/g/utilities/nvim-linux64/bin/"
+      - "/home/g/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/opt/gcc-15/bin/gcc-ar-15.2"
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/gcc-ar-15.2"
+      - "/home/g/.sdkman/candidates/java/current/bin/gcc-ar-15.2"
+      - "/usr/include/gtkmm-4.0/gcc-ar-15.2"
+      - "/home/g/.dotnet/tools/gcc-ar-15.2"
+      - "/home/g/.dotnet/gcc-ar-15.2"
+      - "/home/g/utilities/zls/zig-out/bin/gcc-ar-15.2"
+      - "/home/g/utilities/zig-x86_64-linux/gcc-ar-15.2"
+      - "/home/g/.emacs.d/bin/gcc-ar-15.2"
+      - "/home/g/.config/emacs/bin/gcc-ar-15.2"
+      - "/home/g/.local/bin/gcc-ar-15.2"
+      - "/home/g/utilities/nvim-linux64/bin/gcc-ar-15.2"
+      - "/home/g/.cargo/bin/gcc-ar-15.2"
+      - "/usr/local/sbin/gcc-ar-15.2"
+      - "/usr/local/bin/gcc-ar-15.2"
+      - "/usr/sbin/gcc-ar-15.2"
+      - "/usr/bin/gcc-ar-15.2"
+      - "/sbin/gcc-ar-15.2"
+      - "/bin/gcc-ar-15.2"
+      - "/usr/games/gcc-ar-15.2"
+      - "/usr/local/games/gcc-ar-15.2"
+      - "/snap/bin/gcc-ar-15.2"
+      - "/opt/gcc-15/bin/gcc-ar-15"
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/gcc-ar-15"
+      - "/home/g/.sdkman/candidates/java/current/bin/gcc-ar-15"
+      - "/usr/include/gtkmm-4.0/gcc-ar-15"
+      - "/home/g/.dotnet/tools/gcc-ar-15"
+      - "/home/g/.dotnet/gcc-ar-15"
+      - "/home/g/utilities/zls/zig-out/bin/gcc-ar-15"
+      - "/home/g/utilities/zig-x86_64-linux/gcc-ar-15"
+      - "/home/g/.emacs.d/bin/gcc-ar-15"
+      - "/home/g/.config/emacs/bin/gcc-ar-15"
+      - "/home/g/.local/bin/gcc-ar-15"
+      - "/home/g/utilities/nvim-linux64/bin/gcc-ar-15"
+      - "/home/g/.cargo/bin/gcc-ar-15"
+      - "/usr/local/sbin/gcc-ar-15"
+      - "/usr/local/bin/gcc-ar-15"
+      - "/usr/sbin/gcc-ar-15"
+      - "/usr/bin/gcc-ar-15"
+      - "/sbin/gcc-ar-15"
+      - "/bin/gcc-ar-15"
+      - "/usr/games/gcc-ar-15"
+      - "/usr/local/games/gcc-ar-15"
+      - "/snap/bin/gcc-ar-15"
+      - "/opt/gcc-15/bin/gcc-ar15"
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/gcc-ar15"
+      - "/home/g/.sdkman/candidates/java/current/bin/gcc-ar15"
+      - "/usr/include/gtkmm-4.0/gcc-ar15"
+      - "/home/g/.dotnet/tools/gcc-ar15"
+      - "/home/g/.dotnet/gcc-ar15"
+      - "/home/g/utilities/zls/zig-out/bin/gcc-ar15"
+      - "/home/g/utilities/zig-x86_64-linux/gcc-ar15"
+      - "/home/g/.emacs.d/bin/gcc-ar15"
+      - "/home/g/.config/emacs/bin/gcc-ar15"
+      - "/home/g/.local/bin/gcc-ar15"
+      - "/home/g/utilities/nvim-linux64/bin/gcc-ar15"
+      - "/home/g/.cargo/bin/gcc-ar15"
+      - "/usr/local/sbin/gcc-ar15"
+      - "/usr/local/bin/gcc-ar15"
+      - "/usr/sbin/gcc-ar15"
+      - "/usr/bin/gcc-ar15"
+      - "/sbin/gcc-ar15"
+      - "/bin/gcc-ar15"
+      - "/usr/games/gcc-ar15"
+      - "/usr/local/games/gcc-ar15"
+      - "/snap/bin/gcc-ar15"
+    found: "/opt/gcc-15/bin/gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/g/.sdkman/candidates/kotlin/current/bin"
+        - "/home/g/.sdkman/candidates/java/current/bin"
+        - "/usr/include/gtkmm-4.0"
+        - "/home/g/.dotnet/tools"
+        - "/home/g/.dotnet"
+        - "/home/g/utilities/zls/zig-out/bin"
+        - "/home/g/utilities/zig-x86_64-linux"
+        - "/home/g/.emacs.d/bin"
+        - "/home/g/.config/emacs/bin"
+        - "/home/g/.local/bin"
+        - "/home/g/utilities/nvim-linux64/bin"
+        - "/home/g/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/local/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-15.2"
+      - "gcc-ranlib-15"
+      - "gcc-ranlib15"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/opt/gcc-15/bin/"
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/"
+      - "/home/g/.sdkman/candidates/java/current/bin/"
+      - "/usr/include/gtkmm-4.0/"
+      - "/home/g/.dotnet/tools/"
+      - "/home/g/.dotnet/"
+      - "/home/g/utilities/zls/zig-out/bin/"
+      - "/home/g/utilities/zig-x86_64-linux/"
+      - "/home/g/.emacs.d/bin/"
+      - "/home/g/.config/emacs/bin/"
+      - "/home/g/.local/bin/"
+      - "/home/g/utilities/nvim-linux64/bin/"
+      - "/home/g/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/opt/gcc-15/bin/gcc-ranlib-15.2"
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/gcc-ranlib-15.2"
+      - "/home/g/.sdkman/candidates/java/current/bin/gcc-ranlib-15.2"
+      - "/usr/include/gtkmm-4.0/gcc-ranlib-15.2"
+      - "/home/g/.dotnet/tools/gcc-ranlib-15.2"
+      - "/home/g/.dotnet/gcc-ranlib-15.2"
+      - "/home/g/utilities/zls/zig-out/bin/gcc-ranlib-15.2"
+      - "/home/g/utilities/zig-x86_64-linux/gcc-ranlib-15.2"
+      - "/home/g/.emacs.d/bin/gcc-ranlib-15.2"
+      - "/home/g/.config/emacs/bin/gcc-ranlib-15.2"
+      - "/home/g/.local/bin/gcc-ranlib-15.2"
+      - "/home/g/utilities/nvim-linux64/bin/gcc-ranlib-15.2"
+      - "/home/g/.cargo/bin/gcc-ranlib-15.2"
+      - "/usr/local/sbin/gcc-ranlib-15.2"
+      - "/usr/local/bin/gcc-ranlib-15.2"
+      - "/usr/sbin/gcc-ranlib-15.2"
+      - "/usr/bin/gcc-ranlib-15.2"
+      - "/sbin/gcc-ranlib-15.2"
+      - "/bin/gcc-ranlib-15.2"
+      - "/usr/games/gcc-ranlib-15.2"
+      - "/usr/local/games/gcc-ranlib-15.2"
+      - "/snap/bin/gcc-ranlib-15.2"
+      - "/opt/gcc-15/bin/gcc-ranlib-15"
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/gcc-ranlib-15"
+      - "/home/g/.sdkman/candidates/java/current/bin/gcc-ranlib-15"
+      - "/usr/include/gtkmm-4.0/gcc-ranlib-15"
+      - "/home/g/.dotnet/tools/gcc-ranlib-15"
+      - "/home/g/.dotnet/gcc-ranlib-15"
+      - "/home/g/utilities/zls/zig-out/bin/gcc-ranlib-15"
+      - "/home/g/utilities/zig-x86_64-linux/gcc-ranlib-15"
+      - "/home/g/.emacs.d/bin/gcc-ranlib-15"
+      - "/home/g/.config/emacs/bin/gcc-ranlib-15"
+      - "/home/g/.local/bin/gcc-ranlib-15"
+      - "/home/g/utilities/nvim-linux64/bin/gcc-ranlib-15"
+      - "/home/g/.cargo/bin/gcc-ranlib-15"
+      - "/usr/local/sbin/gcc-ranlib-15"
+      - "/usr/local/bin/gcc-ranlib-15"
+      - "/usr/sbin/gcc-ranlib-15"
+      - "/usr/bin/gcc-ranlib-15"
+      - "/sbin/gcc-ranlib-15"
+      - "/bin/gcc-ranlib-15"
+      - "/usr/games/gcc-ranlib-15"
+      - "/usr/local/games/gcc-ranlib-15"
+      - "/snap/bin/gcc-ranlib-15"
+      - "/opt/gcc-15/bin/gcc-ranlib15"
+      - "/home/g/.sdkman/candidates/kotlin/current/bin/gcc-ranlib15"
+      - "/home/g/.sdkman/candidates/java/current/bin/gcc-ranlib15"
+      - "/usr/include/gtkmm-4.0/gcc-ranlib15"
+      - "/home/g/.dotnet/tools/gcc-ranlib15"
+      - "/home/g/.dotnet/gcc-ranlib15"
+      - "/home/g/utilities/zls/zig-out/bin/gcc-ranlib15"
+      - "/home/g/utilities/zig-x86_64-linux/gcc-ranlib15"
+      - "/home/g/.emacs.d/bin/gcc-ranlib15"
+      - "/home/g/.config/emacs/bin/gcc-ranlib15"
+      - "/home/g/.local/bin/gcc-ranlib15"
+      - "/home/g/utilities/nvim-linux64/bin/gcc-ranlib15"
+      - "/home/g/.cargo/bin/gcc-ranlib15"
+      - "/usr/local/sbin/gcc-ranlib15"
+      - "/usr/local/bin/gcc-ranlib15"
+      - "/usr/sbin/gcc-ranlib15"
+      - "/usr/bin/gcc-ranlib15"
+      - "/sbin/gcc-ranlib15"
+      - "/bin/gcc-ranlib15"
+      - "/usr/games/gcc-ranlib15"
+      - "/usr/local/games/gcc-ranlib15"
+      - "/snap/bin/gcc-ranlib15"
+    found: "/opt/gcc-15/bin/gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/g/.sdkman/candidates/kotlin/current/bin"
+        - "/home/g/.sdkman/candidates/java/current/bin"
+        - "/usr/include/gtkmm-4.0"
+        - "/home/g/.dotnet/tools"
+        - "/home/g/.dotnet"
+        - "/home/g/utilities/zls/zig-out/bin"
+        - "/home/g/utilities/zig-x86_64-linux"
+        - "/home/g/.emacs.d/bin"
+        - "/home/g/.config/emacs/bin"
+        - "/home/g/.local/bin"
+        - "/home/g/utilities/nvim-linux64/bin"
+        - "/home/g/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/local/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/g/my_project/Rust_Lang/9999/2222/cpp23_26_project/02_cmake_justfile_c26_ixx/03_master_cpp20_modules/chapter01/a01_math_ixx/CMakeFiles/CMakeScratch/TryCompile-zCdqon"
+      binary: "/home/g/my_project/Rust_Lang/9999/2222/cpp23_26_project/02_cmake_justfile_c26_ixx/03_master_cpp20_modules/chapter01/a01_math_ixx/CMakeFiles/CMakeScratch/TryCompile-zCdqon"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/g/my_project/Rust_Lang/9999/2222/cpp23_26_project/02_cmake_justfile_c26_ixx/03_master_cpp20_modules/chapter01/a01_math_ixx/CMakeFiles/CMakeScratch/TryCompile-zCdqon'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_25b62
+        [1/2] /opt/gcc-15/bin/g++   -v -o CMakeFiles/cmTC_25b62.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/opt/gcc-15/bin/g++
+        Target: x86_64-pc-linux-gnu
+        Configured with: ../gcc-15-source/configure --prefix=/opt/gcc-15 --disable-multilib --enable-languages=c,c++
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_25b62.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_25b62.dir/'
+         /opt/gcc-15/libexec/gcc/x86_64-pc-linux-gnu/15.2.0/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_25b62.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccsrtjFO.s
+        GNU C++17 (GCC) version 15.2.0 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 15.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "//include/c++/"
+        ignoring nonexistent directory "/lib/gcc///include"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../../../x86_64-pc-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../../../include/c++/15.2.0
+         /opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../../../include/c++/15.2.0/x86_64-pc-linux-gnu
+         /opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../../../include/c++/15.2.0/backward
+         /opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/include
+         /usr/local/include
+         /opt/gcc-15/include
+         /opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/include-fixed
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: b1db48a0f721cf408353c165c209015f
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_25b62.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_25b62.dir/'
+         as -v --64 -o CMakeFiles/cmTC_25b62.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccsrtjFO.s
+        GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/opt/gcc-15/libexec/gcc/x86_64-pc-linux-gnu/15.2.0/:/opt/gcc-15/libexec/gcc/x86_64-pc-linux-gnu/15.2.0/:/opt/gcc-15/libexec/gcc/x86_64-pc-linux-gnu/:/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/:/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/:/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_25b62.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_25b62.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /opt/gcc-15/bin/g++  -v -Wl,-v CMakeFiles/cmTC_25b62.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_25b62   && :
+        Using built-in specs.
+        COLLECT_GCC=/opt/gcc-15/bin/g++
+        COLLECT_LTO_WRAPPER=/opt/gcc-15/libexec/gcc/x86_64-pc-linux-gnu/15.2.0/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: ../gcc-15-source/configure --prefix=/opt/gcc-15 --disable-multilib --enable-languages=c,c++
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (GCC) 
+        COMPILER_PATH=/opt/gcc-15/libexec/gcc/x86_64-pc-linux-gnu/15.2.0/:/opt/gcc-15/libexec/gcc/x86_64-pc-linux-gnu/15.2.0/:/opt/gcc-15/libexec/gcc/x86_64-pc-linux-gnu/:/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/:/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/:/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_25b62' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_25b62.'
+         /opt/gcc-15/libexec/gcc/x86_64-pc-linux-gnu/15.2.0/collect2 -plugin /opt/gcc-15/libexec/gcc/x86_64-pc-linux-gnu/15.2.0/liblto_plugin.so -plugin-opt=/opt/gcc-15/libexec/gcc/x86_64-pc-linux-gnu/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cclZWGoc.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_25b62 /lib/x86_64-linux-gnu/crt1.o /lib/x86_64-linux-gnu/crti.o /opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/crtbegin.o -L/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0 -L/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_25b62.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/crtend.o /lib/x86_64-linux-gnu/crtn.o
+        collect2 version 15.2.0
+        /usr/bin/ld -plugin /opt/gcc-15/libexec/gcc/x86_64-pc-linux-gnu/15.2.0/liblto_plugin.so -plugin-opt=/opt/gcc-15/libexec/gcc/x86_64-pc-linux-gnu/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cclZWGoc.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_25b62 /lib/x86_64-linux-gnu/crt1.o /lib/x86_64-linux-gnu/crti.o /opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/crtbegin.o -L/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0 -L/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_25b62.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/crtend.o /lib/x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.42
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_25b62' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_25b62.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/local/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../../../include/c++/15.2.0]
+          add: [/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../../../include/c++/15.2.0/x86_64-pc-linux-gnu]
+          add: [/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../../../include/c++/15.2.0/backward]
+          add: [/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/include]
+          add: [/usr/local/include]
+          add: [/opt/gcc-15/include]
+          add: [/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/include-fixed]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../../../include/c++/15.2.0] ==> [/opt/gcc-15/include/c++/15.2.0]
+        collapse include dir [/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../../../include/c++/15.2.0/x86_64-pc-linux-gnu] ==> [/opt/gcc-15/include/c++/15.2.0/x86_64-pc-linux-gnu]
+        collapse include dir [/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../../../include/c++/15.2.0/backward] ==> [/opt/gcc-15/include/c++/15.2.0/backward]
+        collapse include dir [/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/include] ==> [/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/opt/gcc-15/include] ==> [/opt/gcc-15/include]
+        collapse include dir [/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/include-fixed] ==> [/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/include-fixed]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/opt/gcc-15/include/c++/15.2.0;/opt/gcc-15/include/c++/15.2.0/x86_64-pc-linux-gnu;/opt/gcc-15/include/c++/15.2.0/backward;/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/include;/usr/local/include;/opt/gcc-15/include;/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/local/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/g/my_project/Rust_Lang/9999/2222/cpp23_26_project/02_cmake_justfile_c26_ixx/03_master_cpp20_modules/chapter01/a01_math_ixx/CMakeFiles/CMakeScratch/TryCompile-zCdqon']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_25b62]
+        ignore line: [[1/2] /opt/gcc-15/bin/g++   -v -o CMakeFiles/cmTC_25b62.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/gcc-15/bin/g++]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: ../gcc-15-source/configure --prefix=/opt/gcc-15 --disable-multilib --enable-languages=c c++]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_25b62.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_25b62.dir/']
+        ignore line: [ /opt/gcc-15/libexec/gcc/x86_64-pc-linux-gnu/15.2.0/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_25b62.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccsrtjFO.s]
+        ignore line: [GNU C++17 (GCC) version 15.2.0 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "//include/c++/"]
+        ignore line: [ignoring nonexistent directory "/lib/gcc///include"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../../../include/c++/15.2.0]
+        ignore line: [ /opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../../../include/c++/15.2.0/x86_64-pc-linux-gnu]
+        ignore line: [ /opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../../../include/c++/15.2.0/backward]
+        ignore line: [ /opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /opt/gcc-15/include]
+        ignore line: [ /opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/include-fixed]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: b1db48a0f721cf408353c165c209015f]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_25b62.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_25b62.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_25b62.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccsrtjFO.s]
+        ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/opt/gcc-15/libexec/gcc/x86_64-pc-linux-gnu/15.2.0/:/opt/gcc-15/libexec/gcc/x86_64-pc-linux-gnu/15.2.0/:/opt/gcc-15/libexec/gcc/x86_64-pc-linux-gnu/:/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/:/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/:/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_25b62.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_25b62.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /opt/gcc-15/bin/g++  -v -Wl -v CMakeFiles/cmTC_25b62.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_25b62   && :]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/gcc-15/bin/g++]
+        ignore line: [COLLECT_LTO_WRAPPER=/opt/gcc-15/libexec/gcc/x86_64-pc-linux-gnu/15.2.0/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: ../gcc-15-source/configure --prefix=/opt/gcc-15 --disable-multilib --enable-languages=c c++]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/opt/gcc-15/libexec/gcc/x86_64-pc-linux-gnu/15.2.0/:/opt/gcc-15/libexec/gcc/x86_64-pc-linux-gnu/15.2.0/:/opt/gcc-15/libexec/gcc/x86_64-pc-linux-gnu/:/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/:/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/:/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_25b62' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_25b62.']
+        link line: [ /opt/gcc-15/libexec/gcc/x86_64-pc-linux-gnu/15.2.0/collect2 -plugin /opt/gcc-15/libexec/gcc/x86_64-pc-linux-gnu/15.2.0/liblto_plugin.so -plugin-opt=/opt/gcc-15/libexec/gcc/x86_64-pc-linux-gnu/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cclZWGoc.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_25b62 /lib/x86_64-linux-gnu/crt1.o /lib/x86_64-linux-gnu/crti.o /opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/crtbegin.o -L/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0 -L/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_25b62.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/crtend.o /lib/x86_64-linux-gnu/crtn.o]
+          arg [/opt/gcc-15/libexec/gcc/x86_64-pc-linux-gnu/15.2.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/opt/gcc-15/libexec/gcc/x86_64-pc-linux-gnu/15.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/opt/gcc-15/libexec/gcc/x86_64-pc-linux-gnu/15.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cclZWGoc.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_25b62] ==> ignore
+          arg [/lib/x86_64-linux-gnu/crt1.o] ==> obj [/lib/x86_64-linux-gnu/crt1.o]
+          arg [/lib/x86_64-linux-gnu/crti.o] ==> obj [/lib/x86_64-linux-gnu/crti.o]
+          arg [/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/crtbegin.o] ==> obj [/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/crtbegin.o]
+          arg [-L/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0] ==> dir [/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0]
+          arg [-L/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../../../lib64] ==> dir [/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../../../lib64]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../..] ==> dir [/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../..]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_25b62.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/crtend.o] ==> obj [/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/crtend.o]
+          arg [/lib/x86_64-linux-gnu/crtn.o] ==> obj [/lib/x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 15.2.0]
+        ignore line: [/usr/bin/ld -plugin /opt/gcc-15/libexec/gcc/x86_64-pc-linux-gnu/15.2.0/liblto_plugin.so -plugin-opt=/opt/gcc-15/libexec/gcc/x86_64-pc-linux-gnu/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cclZWGoc.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_25b62 /lib/x86_64-linux-gnu/crt1.o /lib/x86_64-linux-gnu/crti.o /opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/crtbegin.o -L/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0 -L/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_25b62.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/crtend.o /lib/x86_64-linux-gnu/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse library dir [/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0] ==> [/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0]
+        collapse library dir [/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../../../lib64] ==> [/opt/gcc-15/lib64]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../..] ==> [/opt/gcc-15/lib]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/lib/x86_64-linux-gnu/crt1.o;/lib/x86_64-linux-gnu/crti.o;/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/crtbegin.o;/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0/crtend.o;/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.2.0;/opt/gcc-15/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/usr/lib64;/opt/gcc-15/lib;/lib;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/usr/local/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/local/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.42
+...

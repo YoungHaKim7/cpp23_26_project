@@ -1,0 +1,16 @@
+# ninja log v5
+1	7	1756830886704200856	CMakeFiles/project_modules.dir/src/modules/math.ixx.o.ddi	c8b043cd03af0105
+7	10	1756830886704200856	CMakeFiles/project_modules.dir/CXX.dd	3001f53352d63644
+7	10	1756830886704200856	CMakeFiles/project_modules.dir/CXXModules.json	3001f53352d63644
+10	21	1756830886717450965	CMakeFiles/project_modules.dir/src/modules/math.ixx.o	735aeb76244648b5
+7	10	1756830886704200856	CMakeFiles/project_modules.dir/src/modules/math.ixx.o.modmap	3001f53352d63644
+2	54	1756830615320685498	CMakeFiles/a01_math_ixx.dir/src/main.cpp.o.ddi	789f86537bf67bb2
+2	58	1756830785228036694	CMakeFiles/a01_math_ixx.dir/src/modules/math.cpp.o.ddi	f916fc1ac20e4ae1
+58	62	1756830785228036694	CMakeFiles/a01_math_ixx.dir/CXX.dd	f8c05770e8fa2db6
+58	62	1756830785228036694	CMakeFiles/a01_math_ixx.dir/src/modules/math.cpp.o.modmap	f8c05770e8fa2db6
+58	62	1756830785228036694	CMakeFiles/a01_math_ixx.dir/CXXModules.json	f8c05770e8fa2db6
+58	62	1756830785228036694	CMakeFiles/a01_math_ixx.dir/src/main.cpp.o.modmap	f8c05770e8fa2db6
+10	21	1756830886717450965	CMakeFiles/project_modules.dir/math.gcm	735aeb76244648b5
+1	5	1756830895274579120	CMakeFiles/project_modules.dir/CXX.dd	3001f53352d63644
+1	5	1756830895274579120	CMakeFiles/project_modules.dir/CXXModules.json	3001f53352d63644
+1	5	1756830895274579120	CMakeFiles/project_modules.dir/src/modules/math.ixx.o.modmap	3001f53352d63644

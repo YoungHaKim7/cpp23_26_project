@@ -1,0 +1,35 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "/home/g/my_project/Rust_Lang/9999/2222/cpp23_26_project/02_cmake_justfile_c26_ixx/03_master_cpp20_modules/chapter01/a01_math_ixx",
+	"dir-cur-src" : "/home/g/my_project/Rust_Lang/9999/2222/cpp23_26_project/02_cmake_justfile_c26_ixx/03_master_cpp20_modules/chapter01/a01_math_ixx",
+	"dir-top-bld" : "/home/g/my_project/Rust_Lang/9999/2222/cpp23_26_project/02_cmake_justfile_c26_ixx/03_master_cpp20_modules/chapter01/a01_math_ixx",
+	"dir-top-src" : "/home/g/my_project/Rust_Lang/9999/2222/cpp23_26_project/02_cmake_justfile_c26_ixx/03_master_cpp20_modules/chapter01/a01_math_ixx",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : 
+	[
+		"/home/g/my_project/Rust_Lang/9999/2222/cpp23_26_project/02_cmake_justfile_c26_ixx/03_master_cpp20_modules/chapter01/a01_math_ixx/CMakeFiles/project_modules.dir"
+	],
+	"module-dir" : "/home/g/my_project/Rust_Lang/9999/2222/cpp23_26_project/02_cmake_justfile_c26_ixx/03_master_cpp20_modules/chapter01/a01_math_ixx/CMakeFiles/a01_math_ixx.dir",
+	"sources" : 
+	{
+		"CMakeFiles/a01_math_ixx.dir/src/main.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/g/my_project/Rust_Lang/9999/2222/cpp23_26_project/02_cmake_justfile_c26_ixx/03_master_cpp20_modules/chapter01/a01_math_ixx/src/main.cpp"
+		},
+		"CMakeFiles/a01_math_ixx.dir/src/modules/math.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/g/my_project/Rust_Lang/9999/2222/cpp23_26_project/02_cmake_justfile_c26_ixx/03_master_cpp20_modules/chapter01/a01_math_ixx/src/modules/math.cpp"
+		}
+	}
+}
