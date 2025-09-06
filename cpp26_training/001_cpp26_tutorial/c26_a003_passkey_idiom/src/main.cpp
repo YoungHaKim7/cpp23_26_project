@@ -1,42 +1,43 @@
 #include <print>
 
-template <typename... Ts>
-class Passkey {
+template <typename... Ts> class Passkey {
     friend Ts...;
-    Passkey() {}
+    Passkey() { }
 };
 
 class A;
 class B;
 
 struct Widget {
-    void secret(Passkey<A, B>) {
-        std::println("secret() called");
-    }
+    void secret(Passkey<A, B>) { std::println("secret() called"); }
 };
 
 class A {
 public:
-    void doit(Widget& w) {
+    void doit(Widget& w)
+    {
         w.secret({}); // OK
     }
 };
 
 class B {
 public:
-    void doit(Widget& w) {
+    void doit(Widget& w)
+    {
         w.secret({}); // OK
     }
 };
 
 class D {
 public:
-    void doit(Widget& w) {
+    void doit(Widget& w)
+    {
         // w.secret({}); // won't compile!
     }
 };
 
-int main() {
+int main()
+{
     Widget w;
     A a;
     B b;

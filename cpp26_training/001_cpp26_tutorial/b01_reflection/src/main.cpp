@@ -2,41 +2,41 @@
 
 #include <print>
 
-void fn() {}
+void fn() { }
 
 enum Enum { A };
 using Alias = int;
 
-struct B {};
+struct B { };
 
 struct S : B {
     int mem;
     int : 0; // unnamed bit-field
 };
 
-template <auto>
-struct TCls {};
+template <auto> struct TCls { };
 
-template <auto>
-void TFn();
+template <auto> void TFn();
 
-template <auto>
-int TVar = 0;
+template <auto> int TVar = 0;
 
 template <auto>
 concept Concept = requires { true; };
 
-namespace NS {}
+namespace NS {
+}
 namespace NSAlias = NS;
 
-int main() {
-    int arr[] = {1, 2, 3};
+int main()
+{
+    int arr[] = { 1, 2, 3 };
     auto [a1, a2, a3] = arr;
 
     std::println("Structured binding: {} {} {}", a1, a2, a3);
 
     // The following code block is placeholder for reflection-based code
-    // (will work only when `std::meta` and `^^` become available in your compiler)
+    // (will work only when `std::meta` and `^^` become available in your
+    // compiler)
 
     /*
     constexpr auto ctx = std::meta::access_context::current();
@@ -58,6 +58,7 @@ int main() {
     constexpr auto r15 = ^^NSAlias;
     constexpr auto r16 = ^^NS;
     constexpr auto r17 = std::meta::bases_of(^^S, ctx)[0];
-    constexpr auto r18 = std::meta::data_member_spec(^^int, { .name = "member" });
+    constexpr auto r18 = std::meta::data_member_spec(^^int, { .name = "member"
+    });
     */
 }

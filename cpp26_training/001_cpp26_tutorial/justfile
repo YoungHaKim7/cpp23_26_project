@@ -10,6 +10,7 @@ macos_gpp_which := "/opt/homebrew/opt/gcc@15/bin/g++-15"
 
 # clang-format-20
 clang_format := "clang-format-20"
+macos_clang_format := "/opt/homebrew/opt/llvm/bin/clang-format"
 
 # Source and target directories
 src_dir := "./src"
@@ -36,6 +37,15 @@ ldflags_fsanitize_valgrind := "-fsanitize=address -g3 -std=c++2b"
 
 # fmt
 fmt_flags := ". -regex '.*\\.\\(cpp\\|hpp\\|cc\\|cxx\\|c\\|h\\)' -exec "+clang_format+" -style=file -i {} \\;"
+
+# fmt .clang-format(macOS)
+macos_fmt_flags := ". -iname '*.cpp' -o -iname '*.hpp' -o -iname '*.cc'  -o -iname '*.c'-o -iname '*.cxx' -o -iname '*.c' -o -iname '*.h' | "+macos_clang_format+" -style=file -i --files=/dev/stdin"
+
+# fast fmt(fd-find)
+fm_flags := "-e c -e h -e cpp -e hpp -e cc -e cxx -x "+clang_format+" -style=file -i {} \\;"
+
+# fast fmt(fd-find)
+macos_fm_flags := "-e c -e h -e cpp -e hpp -e cc -e cxx -x "+macos_clang_format+" -style=file -i {} \\;"
 
 r:
     rm -rf target
@@ -118,8 +128,23 @@ cl:
 	{{clang_format}} -style=WebKit -dump-config > .clang-format
 
 # .clang-format fmt
+[linux]
 fmt:
 	find {{fmt_flags}}
+
+# .clang-format fmt(macos)
+[macos]
+fmt:
+	find {{macos_fmt_flags}}
+
+# (fast).clang-format fmt(cargo install fd-find)
+[linux]
+fm:
+	fd {{fm_flags}}
+
+[macos]
+fm:
+	fd {{macos_fm_flags}}
 
 # clang++ LLVM emit-file
 ll:

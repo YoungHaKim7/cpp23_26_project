@@ -1,12 +1,13 @@
 #include <print>
 
 struct S {
-    void operator()() {
+    void operator()()
+    {
         std::println("operator()");
     }
 };
 
 int main()
 {
-    S{}();
+    S {}();
 }
