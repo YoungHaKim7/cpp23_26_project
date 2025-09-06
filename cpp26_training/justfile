@@ -137,11 +137,12 @@ fmt:
 fmt:
 	find {{macos_fmt_flags}}
 
-# (fast).clang-format fmt(cargo install fd-find)
+# (fast).clang-format fmt(cargo install fd-find)(LinuxOS)
 [linux]
 fm:
 	fd {{fm_flags}}
 
+# (fast).clang-format fmt(cargo install fd-find)(macOS)
 [macos]
 fm:
 	fd {{macos_fm_flags}}
