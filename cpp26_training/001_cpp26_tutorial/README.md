@@ -30,6 +30,10 @@
   - [(250907) The 10 Essential Features for the Future of C++ Libraries - Mateusz Pusz - C++ on Sea 2025 | cpponsea](https://youtu.be/TJg37Sh9j78?si=z2d92wmtKxZikzhQ)
   - [(200623)Thrill YouTube Tutorial: High-Performance Algorithmic Distributed Computing with C++ | Timo Bingmann](https://youtu.be/UxW5YyETLXo?si=74VxM5zxgvghuFeR) 
 
+# 연습하기 좋은 C++ Github code
+- Collaborative Collection of C++ Best Practices. This online resource is part of Jason Turner's collection of C++ Best Practices resources. See README.md for more information. 
+  - https://github.com/cpp-best-practices/cppbestpractices
+
 # 1. `std::println` – Formatted printing
 
 ```cpp
