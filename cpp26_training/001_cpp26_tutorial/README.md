@@ -15,11 +15,17 @@
 # Tutorial
 
 - [C++ | The Cherno(영상 모아보기 젤 유명한듯)](https://youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&si=51GQsy50eSYxy291)
+  - [(171018) CppCon 2017: Kate Gregory “10 Core Guidelines You Need to Start Using Now” | CppCon](https://youtu.be/XkDEzfpdcSg?si=GJnVraCzs7fuFrfI)
 - [(250909)std::optional — Standardizing Optionals over References - A Case Study - Steve Downey - C++Now 2025 | CppNow](https://youtu.be/cSOzD78yQV4?si=bpyAab7LUwWuAbO2)
 - [(250706) Essential C++ Tips and Tricks for the Ultimate Cpp Performance - Andreas Fertig - C++Online 2025 | C++Online](https://youtu.be/_lwuqH72ycM?si=zw2pPwDG7EEQ57L-)
 - [(250904) To Err is Human - Robust Error Handling in C++26 - Sebastian Theophil - C++ on Sea 2025 | cpponsea](https://youtu.be/A8arWLN54GU?si=vOFuKaZu08tKDt7r)
 
+- constexpr
+  - [(240919) Understanding The constexpr 2-Step - Jason Turner - C++ on Sea 2024 | cpponsea](https://youtu.be/_AefJX66io8?si=GVNhG1bDpJisbIqx)
+ 
 - 고급
+  - [(231125) Delivering Safe C++ - Bjarne Stroustrup - CppCon 2023 | CppCon](https://youtu.be/I8UvQKvOSSw?si=BGhDFj7F_ti38ftm)
+ 
   - [(250907) The 10 Essential Features for the Future of C++ Libraries - Mateusz Pusz - C++ on Sea 2025 | cpponsea](https://youtu.be/TJg37Sh9j78?si=z2d92wmtKxZikzhQ)
   - [(200623)Thrill YouTube Tutorial: High-Performance Algorithmic Distributed Computing with C++ | Timo Bingmann](https://youtu.be/UxW5YyETLXo?si=74VxM5zxgvghuFeR) 
 
