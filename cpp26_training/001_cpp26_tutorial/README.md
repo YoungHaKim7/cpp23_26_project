@@ -19,6 +19,7 @@
 - [(250909)std::optional — Standardizing Optionals over References - A Case Study - Steve Downey - C++Now 2025 | CppNow](https://youtu.be/cSOzD78yQV4?si=bpyAab7LUwWuAbO2)
 - [(250706) Essential C++ Tips and Tricks for the Ultimate Cpp Performance - Andreas Fertig - C++Online 2025 | C++Online](https://youtu.be/_lwuqH72ycM?si=zw2pPwDG7EEQ57L-)
 - [(250904) To Err is Human - Robust Error Handling in C++26 - Sebastian Theophil - C++ on Sea 2025 | cpponsea](https://youtu.be/A8arWLN54GU?si=vOFuKaZu08tKDt7r)
+- [(250906) Advanced Ranges - Writing Modular, Clean, and Efficient Code with Custom Views - Steve Sorkin | CppNow](https://youtu.be/5iXUCcFP6H4?si=TOgMegb8inFrHE6x)
 
 - constexpr
   - [(240919) Understanding The constexpr 2-Step - Jason Turner - C++ on Sea 2024 | cpponsea](https://youtu.be/_AefJX66io8?si=GVNhG1bDpJisbIqx)
