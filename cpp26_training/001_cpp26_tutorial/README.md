@@ -5,6 +5,13 @@
 # mdspan
 - https://en.cppreference.com/w/cpp/container/mdspan.html
 
+<hr />
+
+# 온라인 디버거C++
+- [온라인으로 디버깅 된다. 완전 굿 굿 https://www.onlinegdb.com/online_c++_debugger](https://www.onlinegdb.com/online_c++_debugger)
+
+<hr />
+
 # Tutorial
 - [(250909)std::optional — Standardizing Optionals over References - A Case Study - Steve Downey - C++Now 2025 | CppNow](https://youtu.be/cSOzD78yQV4?si=bpyAab7LUwWuAbO2)
 
