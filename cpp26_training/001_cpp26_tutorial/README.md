@@ -5,6 +5,9 @@
 # mdspan
 - https://en.cppreference.com/w/cpp/container/mdspan.html
 
+# Tutorial
+- [(250909)std::optional — Standardizing Optionals over References - A Case Study - Steve Downey - C++Now 2025 | CppNow](https://youtu.be/cSOzD78yQV4?si=bpyAab7LUwWuAbO2)
+
 
 # 1. `std::println` – Formatted printing
 
