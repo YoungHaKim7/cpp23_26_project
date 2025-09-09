@@ -11,6 +11,7 @@
 - [`-std=c++2b`같은거_컴파일옵션 정리 버젼별c++20+23+26 & C/C++ Support in Clang](#cc-support-in-clang)
   - [`-o -Wextra -Wall` 같은거 정리](#gcc--clang)
 
+- [GDB Tutorial(디버깅Debuggin)]()
 - [나름 잘 정리된 C++](https://isocpp.org/blog/tag/experimental)
 
 - C++26
@@ -142,6 +143,10 @@ $ cmake -S llvm -B build -G Ninja \
 $ cd build
 $ cmake --build . --target install
 ```
+
+# GDB Tutorial[|🔝|](#link)
+- Gdb is a debugger for C (and C++). It allows you to do things like run the program up to a certain point then stop and print out the values of certain variables at that point, or step through the program one line at a time and print out the values of each variable after executing each line. It uses a command line interface.
+  - https://web.eecs.umich.edu/~sugih/pointers/summary.html
 
 # C++26: The Next C++ Standard | by Rainer Grimm이 사람이 최고[|🔝|](#link)
 - August 19, 2024/0 Comments/in C++26/by Rainer Grimm
