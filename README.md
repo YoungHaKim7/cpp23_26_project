@@ -11,7 +11,7 @@
 - [`-std=c++2b`같은거_컴파일옵션 정리 버젼별c++20+23+26 & C/C++ Support in Clang](#cc-support-in-clang)
   - [`-o -Wextra -Wall` 같은거 정리](#gcc--clang)
 
-- [GDB Tutorial(디버깅Debuggin)]()
+- [GDB Tutorial(디버깅Debugging)](#gdb-tutorial)
 - [나름 잘 정리된 C++](https://isocpp.org/blog/tag/experimental)
 
 - C++26
