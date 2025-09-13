@@ -1,5 +1,7 @@
 # link
 
+- cmake+ justfile (C++23&26 build)
+  - https://github.com/YoungHaKim7/cpp26_pthread_cmake_just_sample
 - [gcc 최신 버젼 다운 받기_& gcc 최신 정보](#gcc최신정보-및-다운로드-받기)
   - [(외부링크) gcc 최신 버젼 다운 받기_잘 설명됨](https://phoenixnap.com/kb/install-gcc-ubuntu)
     - 최신판 수동 설치
