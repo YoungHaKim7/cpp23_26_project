@@ -40,6 +40,9 @@
   - C++ 필수 라이브러리 설명 잘됨.
     - https://doitnow-man.tistory.com/entry/C-gcc-%EB%B2%84%EC%A0%84%EA%B3%BC-libstdc-%EA%B4%80%EA%B3%84
 
+- (정리중..251010) 러스트(Rust) 개발자를 위한 C언어 기초(C23) && C++23/26 기초 && zig
+  - 
+
 <hr>
 
 # `CPLUS_INCLUDE_PATH`이걸 해줘야 C++26이 된다.[|🔝|](#link)
