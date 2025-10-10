@@ -8,7 +8,7 @@
       - [cmake최신판](#cmake-최신판-설치)
 
 - [최신 LLVM설치(clang)](#최신-llvm설치clang)
-  - [`clang-format-20`설치방법](#clang-format-20설치방법)
+  - [`clang-format-21`설치방법](#clang-format-20설치방법)
 
 - [`-std=c++2b`같은거_컴파일옵션 정리 버젼별c++20+23+26 & C/C++ Support in Clang](#cc-support-in-clang)
   - [`-o -Wextra -Wall` 같은거 정리](#gcc--clang)
@@ -121,14 +121,14 @@ chmod +x llvm.sh
 sudo ./llvm.sh <version number>
 ```
 
-# `clang-format-20`설치방법[|🔝|](#link)
+# `clang-format-21`설치방법[|🔝|](#link)
 - https://askubuntu.com/questions/1409031/how-to-use-a-more-recent-clang-format-or-clang-tidy-version-on-ubuntu-18-04
 
 ```bash
 wget https://apt.llvm.org/llvm.sh
 chmod +x llvm.sh
-sudo ./llvm.sh 20
-sudo apt install clang-format-20
+sudo ./llvm.sh 21
+sudo apt install clang-format-21
 ```
 
 - 다른 방법
