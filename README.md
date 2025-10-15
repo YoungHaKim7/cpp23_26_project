@@ -124,6 +124,12 @@ chmod +x llvm.sh
 sudo ./llvm.sh <version number>
 ```
 
+- 20구버젼 지우기
+
+```bash
+sudo apt remove --autoremove llvm-20
+```
+
 # `clang-format-21`설치방법[|🔝|](#link)
 - https://askubuntu.com/questions/1409031/how-to-use-a-more-recent-clang-format-or-clang-tidy-version-on-ubuntu-18-04
 
