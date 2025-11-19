@@ -19,6 +19,9 @@
 
 - [(외부링크_250701유튜브)C++ 26이 완성되었습니다! | Gamefromscratch](https://youtu.be/TOKP7k66VBw?si=H6FYLENpyQ9_aqRS)
 
+# 251119)Implement the C++ Standard Library: Design, Optimisations, Testing while Implementing Libc++ | 
+- CppCon
+  - https://youtu.be/iw8hqKftP4I?si=eAifWL4cy26EUNCp
 
 # Three Cool Things in C++26: Safety, Reflection & std::execution - Herb Sutter - C++ on Sea 2025
 cpponsea
